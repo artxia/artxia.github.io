@@ -1,0 +1,168 @@
+---
+layout: handbook-page-toc
+title: Manage Team
+---
+
+## On this page
+{:.no_toc .hidden-md .hidden-lg}
+
+- TOC
+{:toc .hidden-md .hidden-lg}
+
+### Manage
+{: #welcome}
+
+The responsibilities of this team are described by the [Manage product
+category](/handbook/product/categories/#manage-stage). Manage is made up of multiple groups, each with their own categories and areas of
+responsibility.
+
+* I have a question. Who do I ask?
+
+In GitLab issues, questions should start by @ mentioning the relevant Product Manager for the [category](/handbook/product/categories/#dev). GitLab employees can also use [#s_manage](https://gitlab.slack.com/messages/CBFCUM0RX).
+
+### How we work
+
+* In accordance with our [GitLab values](/handbook/values/).
+* Transparently: nearly everything is public, we record/livestream meetings whenever possible.
+* We get a chance to work on the things we want to work on.
+* Everyone can contribute; no silos.
+* We do an optional, asynchronous daily stand-up in [#s_manage_daily](https://gitlab.slack.com/messages/CDMLE4A8Z).
+
+#### Estimation
+
+Before work can begin on an issue, we should estimate it first after a preliminary investigation.
+
+Separate issues should be created for each discipline that's involved (see [an example](https://gitlab.com/gitlab-org/gitlab-ee/issues/9288)), and scheduled issues without a weight should be assigned the "estimation:needed" label.
+
+When estimating development work, please assign an issue an appropriate weight:
+
+| Weight | Description (Engineering) |
+| ------ | ------ |
+| 1 | The simplest possible change. We are confident there will be no side effects. |
+| 2 | A simple change (minimal code changes), where we understand all of the requirements. |
+| 3 | A simple change, but the code footprint is bigger (e.g. lots of different files, or tests effected). The requirements are clear. |
+| 5 | A more complex change that will impact multiple areas of the codebase, there may also be some refactoring involved. Requirements are understood but you feel there are likely to be some gaps along the way. |
+| 8 | A complex change, that will involve much of the codebase or will require lots of input from others to determine the requirements. |
+| 13 | A significant change that may have dependencies (other teams or third-parties) and we likely still don't understand all of the requirements. It's unlikely we would commit to this in a milestone, and the preference would be to further clarify requirements and/or break in to smaller Issues. |
+
+For UX issues, please use a similar methodology:
+
+| Weight | Description (UX) |
+| ------ | ------ |
+| 1 | Mostly small to medium UI changes, smaller UX improvements, without unanswered questions |
+| 2 | Simple UI or UX change where we understand all of the requirements, but may need to find solutions to known questions/problems. |
+| 3 | A simple change but the scope of work is bigger (lots of UI or UX changes/improvements required). Multiple pages are involved, we're starting to design/redesign small flows. Some unknown questions may arise during the work. |
+| 5 | A complex change where other team members will need to be involved. Spans across multiple pages, we're working on medium-sized flows. There are significant open questions that need to be answered. |
+| 8 | A complex change that spans across large flows and may require input from other designers. This is the largest flow design/redesign that we would take on in a single milestone. |
+| 13 | A significant change that spans across multiple flows and that would require significant input from others (teams, team members, user feedback) and there are many unknown unknowns. It's unlikely we would commit to this in a milestone, and the preference would be to further clarify requirements and/or break in to smaller Issues. |
+
+As part of estimation, if you feel the issue is in an appropriate state for an engineer to start working on it, please add the ~"workflow::ready for development" label. Alternatively, if there are still requirements to be defined or questions to be answered that you feel an engineer won't be able to easily resolve, please add the ~"workflow::blocked" label. Issues with the `workflow::blocked` label will appear in their own column on our planning board, making it clear that they need further attention.
+
+Once an issue has been estimated, the `estimation:needed` label can be replaced with `estimation:completed`.
+
+#### Planning
+
+We plan in monthly cycles in accordance with our [Product Development Timeline](/handbook/engineering/workflow/#product-development-timeline). In order to plan for these milestones, groups should consider the following milestones:
+
+* By the 4th, Product should have created a planning issue for their group in the [Manage project](https://gitlab.com/gitlab-org/manage/issues) for the coming release.
+  * This issue should include a tentative plan for the release, along with links to boards that represent the proposed work for the milestone. Please see examples from [Fulfillment](https://gitlab.com/gitlab-org/fulfillment-meta/issues/37), [Manage](https://gitlab.com/gitlab-org/manage/issues/65), and [Create](https://gitlab.com/gitlab-org/create-stage/issues/33)!
+  * Issues without estimates should have the `estimation::needed` label applied to make estimation easier and be marked for the coming release as `Deliverable`. Issues of particular significance to our stage's strategy should be marked with `direction`.
+  * To review the proposed scope and kick start estimation, synchronous meetings with Engineering and Design are recommended.
+* By the 12th, all planned issues proposed for the next release should be estimated by engineering (`estimation::completed`).
+  * To assist with capacity planning, we track the cumulative weight of closed issues over the past 3 releases on a rolling basis. The proposed scope of work for the next release should not exceed 80% of this to account for slippage from the previous release.
+  * After estimation, Product should make any needed adjustments to the proposed scope based on estimates. A synchronous meeting to review the final release scope is recommended.
+* By the 20th, Product should review the release that just concluded development (currently, we transition development work from one release to the next on the 18th) for issues that slipped from the milestone. Please evaluate issues that weren't merged in time and reschedule them appropriately.
+
+#### During a release
+
+* When an issue is introduced into a release after Kickoff, an equal amount of weight must be removed to account for the unplanned work.
+* Development should not begin on an issue before it's been estimated and given a weight.
+
+#### Prioritization
+
+Our priorities should follow [overall guidance for Product](/handbook/product/product-management/process/#prioritization). This should be reflected in the priority label for scheduled issues:
+
+| Priority | Description | Probability of shipping in milestone |
+| ------ | ------ | ------ |
+| P1 | **Urgent**: top priority for achieving in the given milestone. These issues are the most important goals for a release and should be worked on first; some may be time-critical or unblock dependencies. | ~100% |
+| P2 | **High**: important issues that have significant positive impact to the business or technical debt. Important, but not time-critical or blocking others.  | ~75% |
+| P3 | **Normal**: incremental improvements to existing features. These are important iterations, but deemed non-critical. | ~50% |
+| P4 | **Low**: stretch issues that are acceptable to postpone into a future release. | ~25% |
+
+#### Organizing the work
+
+Planned or in-progress work should follow our [Product Development Flow](/handbook/product-development-flow/). This breaks down tasks into two categories:
+
+| Category | Question | Uncertainty | Directly Responsible | Consulted |
+| ------ | ------ | ------ | ------ | ------ |
+| **Validation** | How should we solve a problem? | Relatively high | Product/Design | Engineering |
+| **Build** | How should we build a solution? | Relatively low | Engineering | Product/Design |
+
+Basecamp thinks about these stages in relation to the [climb and descent of a hill](https://www.feltpresence.com/hills.html). Validation represents the climb (we're figuring things out), and Build represents the descent (issues that we understand and are executing on). We represent the Validation and Build tracks in the following boards:
+
+| Group | Validation Track | Build Track |
+| ------ | ------ | ------ |
+| Access | [Board](https://gitlab.com/groups/gitlab-org/-/boards/1300658) | [Board](https://gitlab.com/groups/gitlab-org/-/boards/1305005) |
+| Import | [Board](https://gitlab.com/groups/gitlab-org/-/boards/1300657) | [Board](https://gitlab.com/groups/gitlab-org/-/boards/1305007) |
+| Compliance | [Board](https://gitlab.com/groups/gitlab-org/-/boards/1300640) | [Board](https://gitlab.com/groups/gitlab-org/-/boards/1305010) |
+
+Boards can be filtered for a particular milestone and department ([example](https://gitlab.com/groups/gitlab-org/-/boards/1305005?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Aaccess&label_name[]=backend&milestone_title=12.7)).
+
+#### Retrospectives
+
+After the Kickoff, the Manage team conducts an [asynchronous retrospective](/handbook/engineering/management/team-retrospectives/) on the prior release. You can find current and past retrospectives for Manage in [https://gitlab.com/gl-retrospectives/manage/issues/](https://gitlab.com/gl-retrospectives/manage/issues/).
+
+### Working on unscheduled issues
+
+Everyone at GitLab has the freedom to manage their work as they see fit,
+because [we measure results, not hours][results]. Part of this is the
+opportunity to work on items that aren't scheduled as part of the
+regular monthly release. This is mostly a reiteration of items elsewhere
+in the handbook, and it is here to make those explicit:
+
+1. We expect people to be [managers of one][efficiency], and we [use
+   GitLab ourselves][collaboration]. If you see something that you think
+   is important, you can [request for it to be scheduled], or you can
+   [work on a proposal yourself][iteration], _as long as you keep your
+   other [priorities][priority board] in mind_.
+2. From time to time, there are events that GitLab team-members can participate
+   in, like the [issue bash] and [content hack days]. Anyone is welcome
+   to participate in these.
+
+When you pick something to work on, please:
+
+1. Follow the standard workflow and assign it to yourself.
+2. Share it in `#g_manage` to encourage [transparency]
+
+## Meetings
+
+Although we have a bias for asynchronous communication, synchronous meetings are necessary and should adhere to our [communication guidelines](https://about.gitlab.com/handbook/communication/#video-calls). These meetings generally fall into several categories:
+
+* Regular group or stage-wide meetings: used to stay aligned on group or stage level objectives related to team culture or a particular release (e.g. Analytics Weekly). Engineering managers are the DRIs for these meetings.
+* [Planning meetings](https://about.gitlab.com/handbook/engineering/development/dev/manage/#planning): plan the next release. Product Managers are the DRIs for these meetings.
+* Ad-hoc meetings: topic-specific meetings, generally among a small group of people. While the DRI varies, please always consider recording these calls and sharing them (or taking notes in a [publicly available document](https://docs.google.com/document/d/1kE8udlwjAiMjZW4p1yARUPNmBgHYReK4Ks5xOJW6Tdw/edit)).
+These meetings should have an agenda prepared at least 12 hours in advance. If this is not the case, you are not obligated to attend the meeting. Consider meetings canceled if they do not have an agenda by the start time of the meeting.
+
+## Team Members
+
+The following people are permanent members of the Manage team:
+
+<%= stable_counterparts(role_regexp: /[,&] Manage/, direct_manager_role: 'Engineering Manager, Manage') %>
+
+### Links and resources
+{: #links}
+
+* Our repository
+  * A number of our team discussions and issues are located at [`gitlab-org/manage`](https://gitlab.com/gitlab-org/manage/)
+* Our Slack channels
+  * Manage-wide [#s_manage](https://gitlab.slack.com/messages/CBFCUM0RX)
+  * Manage:Access [#g_manage_access](https://gitlab.slack.com/messages/CLM1D8QR0)
+  * Manage:Analytics [#g_manage_analytics](https://gitlab.slack.com/messages/CJZR6KPB4)
+  * Manage:Compliance [#g_manage_compliance](https://gitlab.slack.com/messages/CN7C8029H)
+  * Manage:Import [#g_manage_import](https://gitlab.slack.com/messages/CLX7WMSKW)
+* Calendar
+  * GitLab team-members can add [this Manage team calendar](https://calendar.google.com/calendar/b/1?cid=Z2l0bGFiLmNvbV9rOWYyN2lqamExaGoxNzZvbmNuMWU4cXF2a0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t) in Google Calendar.
+* Meeting agendas
+  * Agendas and notes from team meetings can be found in [this Google Doc](https://docs.google.com/document/d/1kE8udlwjAiMjZW4p1yARUPNmBgHYReK4Ks5xOJW6Tdw/edit). For transparency across the team, we use one agenda document.
+* Recorded meetings
+  * Recordings should be added to YouTube and added to [this playlist](https://www.youtube.com/playlist?list=PLFGfElNsQthZ-D0khZ_NSb5Bdl2xkF97m).

@@ -1,0 +1,20 @@
+Search for a placeholder entry with your first name and last initial or just first and last initial as X.Y. (note the lack of a space) and update your profile information (make sure you are searching within the file you want to edit by clicking on the file first). If you don't find the placeholder entry with your initials, look through placeholders named "New Vacancy" for your position title. Copy/paste another team member's entry if you don't have a placeholder. You can place your entry at the end of the page.
+  * Change `name` to your `FirstName LastName` and `slug` to your name without spaces.
+  * Verify your title.
+    * If your position title is incorrect or not filled in, navigate to the job_families.yml and use command+F to search for your job title. 
+  * If present `placeholder: true` can be removed or left in (it does not affect visibility of your entry).
+  * Verify `reports_to` lists your manager using the `slug` value from their team page entry.
+  * If you are a manager, verify two extra things,
+    * `reports_to` of your team member using your `slug`
+    * `reports_to` of vacancies in your team using your `slug`
+  * Change `type` to `person` or you will not appear on the interactive map.
+  * Adjust `location_factor` according to your area. Search for your area in `data/location_factors.yml` or [here](https://gitlab.com/gitlab-com/www-gitlab-com/blob/master/data/location_factors.yml) and divide your `locationFactor` you find there by 100.
+  * Add the filename of your profile picture making sure to match exactly even letter case. Ensure to delete "../gitlab-logo-extra-whitespace.png", if present. Completed line should look like this "picture: yournameinlowercase.jpg".
+  * Add your Twitter and GitLab handles without the leading `@`.
+  * Add your pronouns.
+  * Change your locality to your city and state, province, region.
+  * Change country to your country.
+  * Add your own `story`. Use other team member's stories as a reference.
+  * If remote work has [changed your life](https://about.gitlab.com/company/culture/all-remote/people/) in a meaningful way, consider adding your own `remote_story`, using other team member remote stories as a [reference](https://gitlab.com/gitlab-com/marketing/corporate-marketing/uploads/8161ceac4523a9f36244f9533960ccbd/remote-story-example.png).
+  
+  **Important:** Do not use the `tab` character and respect the spaces between lines otherwise the page format will break. Note that referenced file names/extensions are case sensitive, and a file which is not found will cause a pipeline failure.

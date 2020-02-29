@@ -1,0 +1,79 @@
+---
+layout: handbook-page-toc
+title: Enablement Section
+---
+
+## On this page
+{:.no_toc .hidden-md .hidden-lg}
+
+- TOC
+{:toc .hidden-md .hidden-lg}
+
+## Vision
+
+Offer enterprise-grade operational experience of GitLab products from streamlined deployment and maintenance, disaster recovery, secure search and discoverability, to high availability, scalability, and performance, as well as enabling and growing a healthy ecosystem community.
+
+
+## Mission
+
+Enablement focuses on improving our capabilities and metrics in the following areas:
+
+ * [Database](/handbook/engineering/development/enablement/database/)
+ * [Distribution](/handbook/engineering/development/enablement/distribution/)
+ * [Ecosystem](/handbook/engineering/development/enablement/ecosystem/)
+ * [Geo (Disaster Recovery)](/handbook/engineering/development/enablement/geo/)
+ * [Memory](/handbook/engineering/development/enablement/memory/)
+ * [Search](/handbook/engineering/development/enablement/search/)
+
+## Section Members
+
+The following people are permanent members of the Enablement Section:
+
+<%
+departments = ['Database', 'Distribution', 'Ecosystem', 'Geo' , 'Memory', 'Search']
+interim_manager_departments = ['Fulfillment']
+department_regexp = /(#{Regexp.union(departments)})/
+%>
+
+<%=  direct_team(role_regexp: department_regexp, manager_role: 'Director of Engineering, Enablement') %>
+
+## All Team Members
+
+The following people are permanent members of teams that belong to the Enablement Section:
+
+<% departments.each do |dep| %>
+### <%= dep %>
+  <% manager_role = interim_manager_departments.include?(dep) ? "Engineering Manager, #{dep} (Interim)" : "Engineering Manager, #{dep}" %>
+  <%= direct_team(manager_role: manager_role) %>
+<% end %>
+
+## Stable Counterparts
+
+The following members of other functional teams are our stable counterparts:
+
+<%= stable_counterparts(role_regexp: /[,&] Enablement/, direct_manager_role: 'Director of Engineering, Enablement') %>
+
+## How We Work
+
+* [Apply budget for professional development](./processes/budget_approval.html)
+* Integrated Team (Pilot Program)
+
+  The Enablement section is experimenting `Integrated Team` model where both Frontend and Backend Engineers report to a single Engineering Manager and work in an integral team, which is different from many other sections. The frontend work of Enablement teams are relatively light compared to other sections, as a result the ratio of BE:FE is 12:1 by the end of FY2020, and the projected ratio of FY2021 is even higher. After taking many factors into consideration (see [discussions](https://gitlab.com/gitlab-com/www-gitlab-com/issues/5775)), Enablement section will continue experimenting the Integrated Team model for operational efficiency.
+
+## Common Links
+
+* Issue Boards
+  * [Database Milestone Board](https://gitlab.com/groups/gitlab-org/-/boards/1318796?label_name[]=group%3A%3Adatabase)
+  * [Distribution - Helm Charts Kanban Board](https://gitlab.com/charts/gitlab/boards/925761)
+  * [Distribution - Omnibus Kanban Board](https://gitlab.com/gitlab-org/omnibus-gitlab/boards/289804)
+  * [Geo Kanban Board](https://gitlab.com/groups/gitlab-org/-/boards/1034254) - note that Geo makes a board for every release.
+  * [Memory Milestone Board](https://gitlab.com/groups/gitlab-org/-/boards/1143987?label_name[]=group%3A%3Amemory)
+  * [Search Milestone Board](https://gitlab.com/groups/gitlab-org/-/boards/1339901?&label_name[]=group%3A%3Asearch)
+* Slack Channels
+  * Enablement Section [#dev-enablement](https://gitlab.slack.com/messages/CHJK0EVAM)
+  * Database team [#g_database](https://gitlab.slack.com/app_redirect?channel=g_database)
+  * Distribution team [#g_distribution](https://gitlab.slack.com/messages/C1FCTU4BE)
+  * Geo team [#g_geo](https://gitlab.slack.com/messages/C32LCGC1H)
+  * Geo standup [#geo-standup](https://gitlab.slack.com/messages/C7U95P909)
+  * Memory team [#g_memory](https://gitlab.slack.com/messages/CGN8BUCKC)
+  * Search team [#g_search](https://gitlab.slack.com/app_redirect?channel=g_search)

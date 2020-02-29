@@ -1,0 +1,165 @@
+---
+layout: handbook-page-toc
+title: "Reliability Engineering"
+---
+
+## On this page
+{:.no_toc .hidden-md .hidden-lg}
+
+- TOC
+{:toc .hidden-md .hidden-lg}
+
+## Mission
+
+**Reliability Engineering** teams are the gatekeepers and primary caretakers of the operational 
+environment hosting all of GitLab's user-facing services (most notably **GitLab.com**), focusing on
+their availability, performance and scalability through reliability considerations.
+
+## Site Reliability Teams
+
+The Site Reliability teams are responsible for all of GitLab's user-facing services, most notably, GitLab.com. Site Reliability Engineers ensure that these services are available, reliable, scalable, performant and, with the help of GitLab's Security Department, secure. This infrastructure includes a multitude of environments, including staging, GitLab.com (production) and dev.GitLab.org, among others (see the [list of environments](/handbook/engineering/infrastructure/environments/)).
+
+SREs are primarily focused on the GitLab.com's availability, and have a strong focus on building the right toolsets and automations to enable development to ship features as fast and bug-free as possible, leveraging the tools provided by GitLab (we must dogfood).
+
+Another part of the job is building monitoring tools that allow quick troubleshooting as a first step, then turning this into alerts to notify based on symptoms, to then fixing the problem or automating the remediation. We can only scale GitLab.com by being smart and using resources effectively, starting with our own time as the main scarce resource.
+
+## Vision
+
+Reliability Engineering team are composed of [DBRE](/job-families/engineering/database-reliability-engineer/)s and [SRE](/job-families/engineering/site-reliability-engineer/)s. As the role titles indicate, they have different areas of specialty but focus on the reliability of the environment as the unifying goal.
+
+Reliability Engineering teams own the following operational processes:
+
+* [**change management**](/handbook/engineering/infrastructure/change-management/)
+* [**incident management**](/handbook/engineering/infrastructure/team/reliability/incident-management/)
+* [**delta management**](/handbook/engineering/infrastructure/delta-management/)
+
+The teams' overarching goal with respect to these processes is to outdate them through automation.
+
+#### Key Metrics
+
+Key metrics related to this group include:
+
+* **Uptime**: of the operational environment at large and of services, subsystems and components.
+* **Incidents**: alerts (including false positives), count, length (elapsed time), outages, escalations
+* **Efficiencies**: manual vs automated tasks, (unexpected) interrupts
+
+## Team
+
+Each member of the Site Reliability Team is part of this vision:
+
+* Each team member is able to work on all team projects
+* The team is able to reach a conclusion independently all the time, consensus most of the time
+* Career development paths are clear
+* Team creates a database of knowledge through documentation, training sessions and outreach
+
+The DBRE team has his own roadmap, dashboard, milestones and on-call rotation.
+* DBRE's will work in database related projects.
+
+<!--### Team Members
+
+The following people are members of the Reliability Engineering Teams:
+
+The below doesn't iterate over multiple managers with the same title.
+Consequently, only Dave's reports are showing here.
+
+<%= direct_team(manager_role: 'Engineering Manager, Reliability Engineering')%>
+-->
+
+## Organizing Our Work
+
+The Reliability Engineering team primarily organizes on the ~"team::Reliability" label in the [GitLab Infrastructure Team](https://gitlab.com/gitlab-com/gl-infra) group.
+
+## Workflow / How we work
+
+There are now [3 infrastructure teams](/company/team/org-chart/) reporting to
+1. DBRE Infra team - [Gerardo Lopez Fernandez](/company/team/#glopezfernandez)
+1. Secure & Defend Infra team - [Anthony Sandoval](/company/team/#sdval)
+1. CI/CD & Enablement Infra team - [David Smith](/company/team/#dawsmith)
+
+Each team manages its own backlog related to its OKRs.  We use [Milestones](https://gitlab.com/groups/gitlab-com/gl-infra/-/milestones) as timeboxes and each team can roughly align with the [Planning blueprint](../blueprint/planning/)
+
+### Boards: SRE On-call and Teams
+
+The three teams share the [on-call](/handbook/on-call/) rotations for GitLab.com. The 3 SREs in the weekly rotation (EMEA/Americas/APAC) share responsibility for triaging issues and managing tasks on the [SRE On-call](https://gitlab.com/groups/gitlab-com/-/boards/962703) board. The board uses the group `SRE:On-call` label to identify issues across subgroups in `gitlab-com` and is not aligned with any single milestone.
+
+
+### Incoming requests of the Infrastructure Team
+
+Incoming requests of the infrastructure team can start in the Current milestone, but can be triaged out to the correct teams.
+
+Add issues at any time to the [infrastructure issue tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure/issues).
+Let one of the managers for the production team know of the request.  It would be helpful for our prioritization to know the timeline for the issue if your team has commitments related to it.  We do reserve part of our time for interrupt requests, but that does not always mean we can fit in everything that comes to us.
+
+Each team's manager will triage incoming requests for the services their team owns.  In some cases, we may decide to pull that work immediately, in other cases, we may defer the work to a later milestone if we have higher priority currently in progress.  The 3 managers will be meeting twice a week and we can share efforts and rebalance work if needed.  Work that is ready to pull will be added to the team milestone(s) and appear on their boards.
+
+Bigger projects should start as a [Design MR](../design/) so we can get a thought out process on what we want to achieve and then make [an Epic](https://gitlab.com/groups/gitlab-com/gl-infra/-/epics) for the design to group its issues together.
+
+### Issue Trackers
+
+#### Infrastructure
+
+The [infrastructure issue tracker](https://gitlab.com/gitlab-com/gl-infra/infrastructure/issues) is the backlog for the infrastructure team and tracks all work that SRE teams are doing that is not related to an ongoing change or incident.
+
+#### Production Issue Tracker
+
+We have a [production issue tracker](https://gitlab.com/gitlab-com/gl-infra/production/issues).  Issues in this tracker are meant to track incidents and changes to production that need approval.  We can host discussion of proposed changes in linked infrastructure issues.  These issues should have ~incident or ~change and notes describing what happened or what is changing with relevant infrastructure team issues linked for supporting information.
+
+* All [incidents](https://gitlab.com/gitlab-com/gl-infra/production/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=incident) affecting customers S1-S4
+* All [changes](https://gitlab.com/gitlab-com/gl-infra/production/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=change) to infrastructure serving production traffic
+* [Oncall handover reports](https://gitlab.com/gitlab-com/gl-infra/production/issues?scope=all&utf8=%E2%9C%93&state=all&label_name[]=oncall%20report)
+
+<iframe src="https://calendar.google.com/calendar/embed?src=gitlab.com_si2ach70eb1j65cnu040m3alq0%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+#### Standups and Retros
+
+Standups:
+We do standups with [a bot](https://geekbot.io/dashboard/standup/25831/view) that will ask for updates from each team member at 11AM in their timezone.  Updates will go into our slack channel.
+
+Retros:
+We are testing async retros with [another bot](https://geekbot.io/dashboard/standup/26259/view) that happens the second Wednesday of our milestone.  Updates from that retro will again go to our slack channel.
+A summary will also be made so that we can vote on important issues to talk about in more depth.  These can then help us update our themes for milestones.
+
+
+### Boards
+
+We use boards extensively to manage our work (see https://gitlab.com/groups/gitlab-com/gl-infra/-/boards).
+
+##### [Reliability Engineering](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/1436327?)
+board. The board is groomed **daily** by the Reliability Managers.
+
+The managers' priorities are to:
+
+1. Ensure the `workflow::Blocked` list is empty (i.e., unblocking issues is critical)
+1. Maintain the board up to date with the help of issue assignees
+
+##### [Production](https://gitlab.com/gitlab-com/gl-infra/production/-/boards/1204483)
+
+keeps track of the state of Production, showing, at a glance, incidents, hotspots, changes and deltas related to production, and it also includes on-call reports.
+
+There are four types of issues related to production, denoted by labels:
+
+| Label      | Description                                                  |
+| ---------- | ------------------------------------------------------------ |
+| `incident` | Incidents are anomalous conditions where GitLab.com is operating below established SLOs. |
+| `hotspot`  | Hotspots identify threats that are likely to become incidents if not addressed but that we are unable to address right away. |
+| `change`   | Changes are scheduled changes through mainatenance windows.  |
+| `delta`    | Deltas reflect devitations from standard configuration that will eventually merge into the standard. |
+
+
+### [Logistics]()
+
+The Production Board is groomed by the IMOC/CMOC on a daily basis, and we strive to keep it both clean and lean.
+
+##### [DBRE](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/1232123)
+
+The `Database` (*group label*) will automatically add issues to the board. 
+
+##### [Observability](https://gitlab.com/groups/gitlab-com/gl-infra/-/boards/1270688)
+
+There are two labels that identify issues related to Observability efforts for GitLab.com. First, there is a `gitlab-com` group label that collects Observability related issues company wide&mdash;[~Observability](https://gitlab.com/groups/gitlab-com/-/issues?label_name%5B%5D=Observability). And then, there's the [~Board::Observability](https://gitlab.com/groups/gitlab-com/gl-infra/-/issues?label_name%5B%5D=Board%3A%3AObservability) scoped label in the `gl-infra` sub-group. We used the second label to distinguish issues that require the focus of the Site Reliability team responsible for observability, from other groups' properly identified Observability issues.
+
+There is a name collision at the sub-group level&mdash;we have an `~Observability` label there, too. However, it's used primarily at the epic level to define our [Roadmap](https://gitlab.com/groups/gitlab-com/gl-infra/-/roadmap?label_name%5B%5D=Observability&scope=all&sort=end_date_asc&state=opened&utf8=✓&layout=QUARTERS).
+
+If you need SRE attention on a GitLab.com Observability related issue, please add the `Board::Observability` label.
+
+<%= partial "handbook/engineering/infrastructure/_labels.html" %>

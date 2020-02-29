@@ -1,0 +1,165 @@
+---
+layout: handbook-page-toc
+title: "Monitor Stage"
+---
+
+## On this page
+{:.no_toc .hidden-md .hidden-lg}
+
+- TOC
+{:toc .hidden-md .hidden-lg}
+
+## Groups
+
+The groups within this stage are:
+
+* [APM](apm/)
+* [Health](health/)
+
+## Common links
+
+* Slack channel: [#g_monitor](https://gitlab.slack.com/archives/g_monitor)
+* Slack alias: @monitor-group
+* Google group: monitor-stage@gitlab.com
+
+## Vision
+
+Using GitLab, you automatically get broad and deep insight into the health of your deployment.
+
+## Mission
+
+We provide a robust monitoring solution to give GitLab users insight into the performance and availability of their deployments and alert them to problems as soon as they arise. We provide data that is easy to digest and to relate to other features in GitLab. With every piece of the devops lifecycle integrated into GitLab, we have a unique opportunity to closely tie our monitoring features to all of the other pieces of the devops flow.
+
+We work collaboratively and transparently and we will contribute as much of our work as possible back to the open source community.
+
+## Responsibilities
+{: #monitoring}
+
+The monitoring team is responsible for:
+* Providing the tools required to enable monitoring of GitLab.com
+* Packaging these tools to enable all customers to manage their instances easily and completely
+* Building integrated monitoring solutions for customers apps into GitLab, including: metrics, logging, and tracing
+
+This team maps to [Monitor Stage](/handbook/product/categories/#monitor-stage).
+
+## Async Daily Standups
+The purpose of our async standups is to allow every team member to have insight into what everyone else is doing and whether anyone is blocked and could use help. We use the [geekbot slack plugin](https://geekbot.io/) to automate our async standup, following the guidelines outlined in the [Geekbot commands guide](https://geekbot.com/guides/commands/). Answers are concise and focused on top priority items. All question prompts are optional and only answered when the information should be surfaced to the team. Every team member should be added to the async standup by their manager.
+
+Our questions change depending on the day of the week:
+
+- **Monday**
+
+  - Do you need help from anyone to unblock you this week?
+
+    One of our main goals with our standups is to help ensure that we are unblocking one another as a top priority. We ask this first because we think it's the question that other team members can take action on.
+
+  - What do you plan on working on this week?
+
+    We want to understand how our daily actions drive us toward our weekly goals. This question provides broader context for our daily work, but also helps us hold ourselves accountable to maintaining proper scopes for our tasks, issues, merge requests, etc. This answer may stay the same for a week, this would mean things are progressing on schedule. Alternatively, seeing this answer change throughout the week is also okay. Maybe we got side tracked helping someone get unblocked. Maybe new blockers came up. The intention is not to have to justify our actions, but to keep a running record of how our work is progressing or evolving.
+
+  - Any personal tidbits you'd like to share?
+
+    This question is intentionally open ended. You might want to share how you feel, a personal anecdote, funny joke, or simply let the team know that you will have limited availability that afternoon. All of these answers are welcome.
+
+- **Tuesday, Wednesday, Thursday**
+
+  - Are you facing any blockers requiring action from others?
+  - Are you on track with your plan for the week?
+
+    We want to understand how each team member is doing on achieving our week goal(s). It is meant to highlight progress while also identifying if there are things getting in the way. This could also be used to update the plan for the week as things change.
+
+  - What will be your primary focus for today?
+
+    This question is aimed at the most impactful task for the day. We aren't tyring to account for the entire day's worth of work. Highlighting only a primary task keeps our answers concise and provides insight into each team member's most important priority. This doesn't necessarily mean sharing the task that will take the most time. We focus on results over input. Typically this will mean highlighting the task that is most impactful in closing the gap between today and our end of the week goal(s).
+
+  - Any personal tidbits you'd like to share?
+
+- **Friday**
+
+  - What went well this week? What did you enjoy?
+
+    The end of the week is a good time to reflect on our goals, and this question is meant to be a short retrospective of the week. This focusing on things that went well during the week.
+
+  - What didn’t go so well? What caused you to slow down?
+
+    Like the previous question, this question is a way to review our week. This one is a way to surface things that did not go so well or things that go in the way of meeting our weekly goal(s).
+
+  - What have you learned?
+
+    This could be something about work or personal. We hope that by sharing things we have learned that others can also learn from us.
+
+  - Any plans for the weekend you'd like to share?
+
+    Like the "personal tidbit" question we ask other days of the week, this one is very opened ended. You can share as much or as little as you want and all answers are welcome.
+
+## Recurring Meetings
+Every-other week we have a [Monitor Stage Demo Hour](https://docs.google.com/document/d/1bmJJEColEupwCVY_UFXQE_0ATGEPoQL0H9COwg52-J4/edit#) for engineering and design demos by members of the Monitor Stage group. Demos are voluntary and on a sign-up basis.
+
+There is also an optional Monitor Social Hour meeting every week. This call has no agenda and alternates times every other week to be more inclusive of team members in different time zones.
+
+The [Health](health/) and [APM](apm/) groups have their own regular meetings as well.
+
+## Retrospective
+We follow the same retrospective process as the rest of the engineering department, which [can be found here](/handbook/engineering/management/team-retrospectives/).
+
+To encourage a more iterative retrospective process, we create a new retrospective issue at the beginning of each milestone, using the [Monitor retrospective template](https://gitlab.com/gl-retrospectives/monitor/blob/master/.gitlab/issue_templates/Retrospective.md). We leave this issue open for the duration of the milestone so any team member can add feedback as it happens instead of waiting until the end of the milestone.
+
+## Monitor Stage PTO
+Just like the rest of the company, we use [PTO Ninja](/handbook/paid-time-off/#pto-ninja) to track when team members are traveling, attending conferences, and taking time off. The easiest way to see who has upcoming PTO is to run the `/ninja whosout` command in the `#g_monitor_standup` slack channel. This will show you the upcoming PTO for everyone in that channel.
+
+## SRE shadow program
+Not everyone in the Monitor stage has a background that resonates with our primary user personas:
+* [Devon (DevOps Engineer)](https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/#devon-devops-engineer)
+* [Sasha the Software Developer](https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/#sasha-software-developer)
+* [Sidney (Systems Administrator)](https://about.gitlab.com/handbook/marketing/product-marketing/roles-personas/#sidney-systems-administrator)
+As a means of improving the team's understanding of our ideal user, we have implemented a SRE shadow program with the awesome support of the GitLab SRE team.
+
+In this program, engineers are expected to devote 1 entire week to shadow SREs. There is no expectation for the engineer to complete their assigned issues during this time. Engineers are added to PagerDuty and will follow the [existing SRE shadow format of interning](https://about.gitlab.com/handbook/engineering/infrastructure/career/#interning-with-infrastructure--reliability-engineering) (except scaled down to a shorter duration of 1 week). Although typical SREs on-call for multiple days at a time, shadows are only expected to shadow during their regular business hours. This can be set as a preference in PagerDuty.
+
+### Objectives
+- Gain empathy for our user persona
+- Observe pain points in the current SRE workflow so that we can improve it
+- Observe ways the SRE team can dogfood more features
+- Document observations in some medium that allows non-shadows to learn (Eg. blog post, Q&A session..etc)
+
+### Outcomes
+- Engineers gain a better understanding of the users we build features for.
+- Engineers become better stakeholders for the stage.
+  - They are able to create more feature proposals to help the stage build features that improves the life of our user persona.
+  - They are more equipped to influence product direction based on their observation on what is better for our user persona.
+- Engineers develop stronger relationships with the SRE team.
+  - Enables improved collaboration and efficiency in dogfooding features and getting faster feedback cycles for our features.
+
+### How to participate
+Engineers interested in the program should notify their respective frontend/backend engineering managers. Managers should collaborate and determine an optimal schedule in the slack channel `#monitor-sre-shadow` and create an access request for PagerDuty. Assign the access request to the SRE manager (this is a departure from [established processes](https://about.gitlab.com/handbook/business-ops/it-ops-team/access-requests/#bulk-access-request)). We are currently limited to 2 max shadows per release so that we do not overload the SRE team. If you are shadowing during the same release as another engineer, coordinate to create a combined access request for the duration of the release.
+
+Before starting your rotation, coordinate with the SRE(s) who will be on-call to determine which areas it makes sense for you to shadow (incidents, other on-call tasks, SRE daily tasks, etc). You can either check PagerDuty or coordinate with the SRE manager to figure out who you'll be shadowing.
+
+### Alumni
+Alumni of the program are encouraged to add themselves to this list and document/link to the observations/outcomes they were able to share with the wider team.
+
+| Name | Outcomes |
+|---|---|
+| Tristan Read | [My week shadowing a GitLab Site Reliability Engineer](https://about.gitlab.com/blog/2019/12/16/sre-shadow/)
+| Sarah Yasonik | [...Coming soon!](https://gitlab.com/gitlab-org/gitlab/issues/207561) |
+
+## Useful Resources
+
+* For an introduction to Prometheus, see this guide: [https://www.youtube.com/watch?v=8Ai55-sYJA0](https://www.youtube.com/watch?v=8Ai55-sYJA0).
+* For setting up a kubernetes cluster for local development, consult this tutorial: [https://www.youtube.com/watch?v=dFIlml7O2go](https://www.youtube.com/watch?v=dFIlml7O2go).
+* To run GitLab Omnibus in docker with common monitor-related features enabled, see this snippet: [https://gitlab.com/snippets/1892700](https://gitlab.com/snippets/1892700).
+* To easily trigger Prometheus alerts locally, check out this project: [https://gitlab.com/gitlab-org/monitor/manual_prometheus](https://gitlab.com/gitlab-org/monitor/manual_prometheus).
+* Other resources may also be available in the monitor group's namespace on [GitLab.com](https://gitlab.com/gitlab-org/monitor) or [Staging](https://staging.gitlab.com/gitlab-org/monitor).
+
+## Demo Environments
+
+The Monitor Stage maintains a few Demo projects in various environments for verifying changes and demonstrating the product to customers and other stakeholders.
+
+In production, we use the `tanuki-inc` project primarily for demoing to customers:
+
+<https://gitlab.com/gitlab-org/monitor/tanuki-inc>
+
+In production and staging, we use the `monitor-sandbox` project primary for verfication of issue resolution:
+
+<https://staging.gitlab.com/gitlab-org/monitor/monitor-sandbox>
+<https://gitlab.com/gitlab-org/monitor/monitor-sandbox/>

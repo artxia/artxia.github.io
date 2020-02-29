@@ -1,0 +1,176 @@
+---
+layout: handbook-page-toc
+title: Static Site Editor Team
+---
+
+## On this page
+{:.no_toc .hidden-md .hidden-lg}
+
+- TOC
+{:toc .hidden-md .hidden-lg}
+
+## Vision
+
+The Static Site Editor Team is part of the [Dev](/handbook/engineering/development/dev/) Section and is responsible for enhancing the editing experience for static sites inside of GitLab.
+
+## Team Members
+
+The following people are permanent members of the Handbook Team:
+
+<%= direct_team(role_regexp: /Static Site Editor/, manager_role: 'Engineering Manager, Static Site Editor') %>
+
+## Stable Counterparts
+
+The following members of other functional teams are our stable counterparts:
+
+<%= stable_counterparts(role_regexp: /[,&] (Create(?!:)|Create:Static Site Editor)/, direct_manager_role: 'Engineering Manager, Static Site Editor') %>
+
+## Projects
+
+The team works primarily on the two projects listed below:
+
+### GitLab
+The work in [GitLab](https://gitlab.com/gitlab-org/gitlab/) revolves around enhancing the editing experience for static sites. 
+See the [Static Site Editor](https://about.gitlab.com/direction/create/static_site_editor/) strategy for more information.
+
+### Handbook Website
+The work in the [GitLab Handbook](https://about.gitlab.com/handbook/) site is primarily focused on:
+1. Reducing the time it takes from merge to deployment
+1. Enhancing the editing, reading and sharing (think presenting a handbook page) functionality
+1. Maintaining the integrity of the handbook site
+
+See the [GitLab Handbook](https://about.gitlab.com/direction/create/gitlab_handbook/) strategy for more information.
+
+#### about.gitlab.com Responsibility
+The handbook is currently part of the larger [about.gitlab.com](https://gitlab.com/gitlab-com/www-gitlab-com/) website repository which in addition to the handbook includes the marketing website, blog, jobs etc.  
+
+The repository is undergoing a refactor into a monorepo structure and the handbook will be split out into its own project. Progress can be followed here: [https://gitlab.com/groups/gitlab-com/-/epics/282](https://gitlab.com/groups/gitlab-com/-/epics/282)
+
+## Work
+
+In general, we use the standard GitLab [engineering workflow]. To get in touch
+with the Create:Static Site Editor team, it's best to create an issue in the relevant project
+(typically [GitLab] or [www-gitlab-com]) and add the `~"group::static site editor"` labels, along with any other
+appropriate labels. Then, feel free to ping the relevant Product Manager and/or
+Engineering Manager as listed above.
+
+For more urgent items, feel free to use [#g_create_static_site_editor] on Slack.
+
+[engineering workflow]: /handbook/engineering/workflow/
+[GitLab]: https://gitlab.com/gitlab-org/gitlab/issues
+[www-gitlab-com]: https://gitlab.com/gitlab-com/www-gitlab-com/issues
+[#g_create_static_site_editor]: https://gitlab.slack.com/archives/g_create_static_site_editor
+
+### Capacity planning
+
+<%= partial("handbook/engineering/development/dev/create/capacity_planning.erb") %>
+
+We only accept issues with a weight of 5 or less into a milestone.
+Even an issue with a weight of 5 should interrogated to see if we can't iterate on it by breaking it down further.
+For any issue where the weight is 5 or higher a conversation should be started to review it by pinging the EM and PM in the group's Slack channel: [#g_create_static_site_editor]
+
+#### Planning rotation
+
+_For context, this process was taken and modified from [the Plan team](/handbook/engineering/development/dev/plan/#capacity-planning)._
+
+To assign weights to issues in a future milestone, we ask one team member to
+take the lead each month. They can still ask questions - of the
+rest of the team, of the stable counterparts, or anyone else - but they are
+primarily responsible. Issue weights will be confirmed once they've been
+assiged for the upcoming milestone. To weight issues, they should:
+
+1. Look through the issues on the milestone with a `~"Deliverable"` label that have
+   `Weight:None`.
+2. For each issue, they add a weight. If possible, they also add a
+   short comment explaining why they added that weight, what parts of the code
+   they think this would involve, and any risks or edge cases we'll need to
+   consider.
+3. The process is intended to be lightweight. If something isn't clear what
+   weight it is, they should ask for clarification on the scope of the issue.
+4. Start adding weights around **a week before** the weights for a milestone
+   are due. Finishing earlier is better than finishing later.
+5. Check issues that have existing weights. Change the weight if you do not feel 
+   like the initial weight given is accurate and leave a comment explaining your reasoning.
+6. When the issues for the next release get formally assigned, the assignee should
+   investigate the issue and confirm the weight.
+
+Adding weights to the issues should take no longer than 8 hours. Please speak up
+if you find this taking longer than expected!
+
+The rotation for upcoming releases are:
+
+| Release | Weights due | Engineer        |
+| ---     | ---         | ---             |
+| 12.7    | 2019-12-17  | Chad Woolley    |
+| 12.8    | 2020-01-17  | Chad Woolley    |
+| 12.9    | 2020-02-17  | Chad Woolley    |
+
+#### Backend and Frontend issues
+
+Many issues require work on both the backend and frontend, but the weight of that work may not be the same. Since an issue can only have a single weight set on it, we use scoped labels instead when this is the case: `~backend-weight::<number>` and `~frontend-weight::<number>`.
+
+### What to work on
+
+<%= partial("handbook/engineering/development/dev/create/what_to_work_on_fs.erb", locals: { group: "Static Site Editor", slack_channel: 'g_create_static_site_editor' }) %>
+
+[issue board]: https://gitlab.com/groups/gitlab-org/-/boards/412126?label_name[]=group%3A%3Astatic%20site%20editor
+[assignment board]: https://gitlab.com/groups/gitlab-org/-/boards/1476633?&label_name[]=group%3A%3Astatic%20site%20editor
+[milestone board]: https://gitlab.com/gitlab-org/gitlab/-/boards/1397380?&label_name[]=group%3A%3Astatic%20site%20editor
+
+### Workflow labels
+
+The easiest way for engineering managers, product managers, and other stakeholders
+to get a high-level overview of the status of all issues in the current milestone,
+or all issues assigned to specific person, is through the [Development issue board],
+which has columns for each of the workflow labels described on Engineering Workflow
+handbook page under [Updating Issues Throughout Development].
+
+As owners of the issues assigned to them, engineers are expected to keep the
+workflow labels on their issues up to date, either by manually assigning the new
+label, or by dragging the issue from one column on the board to the next.
+
+[Development issue board]: https://gitlab.com/groups/gitlab-org/-/boards/363876?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Astatic%20site%20editor&label_name[]=Deliverable
+[Updating Issues Throughout Development]: /handbook/engineering/workflow/#updating-issues-throughout-development
+
+### MR labels
+
+All MRs¹ should contain the following labels to accurately reflect in our [metrics dashboard](https://app.periscopedata.com/app/gitlab/574876/Static-Site-Editor-Team-Metrics-Dashboard):
+- Our group label: `group::static site editor`
+- One of the following categorization labels:
+    - `feature` - when introducting new or updated functionality
+    - `bug` - when fixing a bug
+    - `backstage` - when doing behind the scenes work.
+    - `security` - when fixing a security vulnerability
+
+¹ Content related MRs to the projects in `gitlab-com/www-gitlab-com` should not contain the group label unless it relates to documentation relating to the work we are doing for the GitLab Handbook category.
+
+### Async standup
+
+<%= partial("handbook/engineering/development/dev/create/async_standup.erb") %>
+
+### Retrospectives
+
+We have 1 regularly scheduled "Per Milestone" retrospective, and can have ad-hoc "Per Project" retrospectives.
+
+#### Per Milestone
+
+<%= partial("handbook/engineering/development/dev/create/retrospectives.erb", locals: { group: "Static Site Editor", group_slug: 'static-site-editor' }) %>
+
+#### Per Project
+
+If a particular issue, feature, or other sort of project turns into a particularly useful learning experience, we may hold a synchronous or asynchronous retrospective to learn from it. If you feel like something you're working on deserves a retrospective:
+1. [Create an issue](https://gitlab.com/gl-retrospectives/create-stage/static-site-editor/issues) explaining why you want to have a retrospective and indicate whether this should be synchronous or asynchronous
+2. Include your EM and anyone else who should be involved (PM, counterparts, etc)
+3. Coordinate a synchronous meeting if applicable
+
+All feedback from the retrospective should ultimately end up in the issue for reference purposes.
+
+### Deep Dives
+
+<%= partial("handbook/engineering/development/dev/create/deep_dives.erb") %>
+
+### Career development
+
+<%= partial("handbook/engineering/development/dev/create/career_development.erb", locals: { group: "Static Site Editor" }) %>
+
+

@@ -1,0 +1,141 @@
+---
+layout: handbook-page-toc
+title: Defend Section
+---
+
+## On this page
+{:.no_toc .hidden-md .hidden-lg}
+
+- TOC
+{:toc .hidden-md .hidden-lg}
+
+## Vision
+
+Defend our customers' applications and infrastructure from the ever-evolving exploitation techniques employed by those who wish to harm our customers.
+
+## Mission
+
+Launch GitLab developed security technologies and integrate open-source projects to provide security controls for customers.  
+
+Employ security controls for our customers at the container, network, host, and application layers.
+
+Provide features to allow customers to manage their security risks effectively and efficiently.
+
+For more details, see the [Defend stage](/stages-devops-lifecycle/defend/).
+
+## Team Members
+
+The following people are permanent members of the Defend Section:
+
+<%= direct_team(manager_role: 'Director of Engineering, Defend') %>
+
+### Backend
+<%=  direct_team(role_regexp: /Engineer/, manager_role: 'Backend Engineering Manager, Defend') %>
+
+### Frontend
+
+<%=  direct_team(role_regexp: /Engineer/, manager_role: 'Frontend Engineering Manager, Defend') %>
+
+
+## Stable Counterparts
+
+The following members of other functional teams are our stable counterparts:
+
+<%= stable_counterparts(role_regexp: /[,&] Defend/, direct_manager_role: nil, other_manager_roles: ['Director of Engineering, Defend','Frontend Engineering Manager, Defend','Backend Engineering Manager, Defend']) %>
+
+## Defend Team
+
+The Defend Team is responsible for defending applications, networks and infrastructure from security intrusions.  The team maps to the [defend](/handbook/product/categories/#defend) transversal page. You can learn more about our approach on the [Defend Vision](/direction/defend/) page.
+
+## Open-source projects
+
+The defend team makes use of a number of open source projects including:
+* [Kubernetes](https://kubernetes.io/)
+* [ModSecurity Web Application Firewall](https://modsecurity.org/)
+* [OWASP ModSecurity Web App Firewall Rule Set](https://owasp.org/www-project-modsecurity-core-rule-set/)
+* [Cilium Network Policies for Kubernetes](https://github.com/cilium/cilium)
+
+
+<%= partial("direction/categories", :locals => { :stageKey => "defend" }) %>
+
+## Defend YouTube Playlist
+
+You can find demos of features, team meetings, release kick-offs, public group sessions, and more in the [Defend YouTube Playlist](https://www.youtube.com/playlist?list=PL05JrBw4t0Kq4CHpCTMv3OdquJXm6ggYr).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL05JrBw4t0Kq4CHpCTMv3OdquJXm6ggYr" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Label Usage
+
+If you are submitting an issue about a Defend Stage feature, use `devops::defend` and one of the following group labels.  Doing this will get the issue in front of the most appropriate team members and will make it so that Defend Stage work is tracked appropriately for various metrics.
+
+| Label 						                 | Use        									                |
+| --------------------------------------------   |------------------------------------------------------------- |
+| `devops::defend`	    			             | All issues related to the Defend Stage      	                |
+| `group::threat management`                     | Vulnerability Management, Responsible Disclosure	            |
+| `group::application infrastructure security`   | Container Network Security, Threat Detection, DDoS Protection |
+| `group::runtime application security`          | WAF, RASP                                                    |
+
+Additional labels should be added according to the [Workflow Labels Documentation](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/development/contributing/issue_workflow.md#workflow-labels).
+
+
+
+## Release process
+
+Our release process is specified in this [project](https://gitlab.com/gitlab-org/security-products/release). The vulnerability database is [updated on a regular basis](https://docs.gitlab.com/ee/user/application_security/#maintenance-and-update-of-the-vulnerabilities-database).
+
+## Skills
+
+Because we have a wide range of domains to cover, it requires a lot of different expertises and skills:
+
+| Technology skills | Areas of interest         |
+| ------------------|---------------------------|
+| Ruby on Rails     | Backend development       |
+| Go                | Backend development       |
+| Javascript        | Frontend development      |
+| SQL (PostgreSQL)  | _Various_                 |
+| Docker/Kubernetes | Threat Detection          |
+| Network Security  | Container network security |
+| Host Security     | _Various_                 |
+
+
+## Engineering Grooming & Planning
+
+To maximize our velocity and meet our deliverables, we follow a [grooming process for all issues](./planning/). 
+
+## Product Documentation
+
+As the product evolves, it is important to maintain accurate and up to date documentation for our users. If it is not documented, customers may not know a feature exists.
+
+To update the documentation, follow this process:
+
+1. When an issue has been identified as needing documentation, add the `~Documentation` label and outline in the description of the issue what documentation is needed.
+1. Assign a Backend Engineer and Technical Writer to the issue. To find the appropriate TW, search the [product categories](/handbook/product/categories/).
+1. For documentation around features or bugs, a Backend Engineer should write the documentation and work with the technical writer for editing. If the documentation only needs styling cleanup, clarification, or reorganization, the Technical Writer should lead the work, with support from a Backend Engineer as necessary. The availability of a technical writer should in no way hold up work on the documentation.
+
+[Further information on the documentation process](https://docs.gitlab.com/ee/development/documentation/feature-change-workflow.html).
+
+## Highlights on how we operate
+
+* We [disagree and commit](https://about.gitlab.com/handbook/values/#transparency) when necessary.
+* We decide on a [**D**irectly **R**esponsible **I**ndividual](/handbook/people-group/directly-responsible-individuals/) for a project or decision.
+* We primarily rely on [asynchronous communication](https://about.gitlab.com/handbook/communication/).  However, we will rely on synchronous communication (such as [fast boot](https://about.gitlab.com/handbook/engineering/fast-boot/) or similar) when asynchronous communication is not proving to be effective to make a decision.
+* We document how decisions are made on which features will be in the secure stage and which will be in the defend stage in order to avoid confusion.  _(Documentation WIP by product management)_
+
+## Common Links
+
+* [#s_defend](https://gitlab.slack.com/archives/s_defend) in Slack
+* [#s_defend-standup](https://gitlab.slack.com/archives/CQ29K6XR7)
+* [Defend team board](https://gitlab.com/groups/gitlab-org/-/boards/1241267?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=devops%3A%3Adefend)
+* [Defend stage calendar](https://calendar.google.com/calendar?cid=Z2l0bGFiLmNvbV9lZDYyMDd1ZWw3OGRlMGoxODQ5dmpqbmIza0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+
+## How to work with us
+
+While we love to get contributions from our users in the community, we also strive to attract talents in the Engineer teams of this stage to bring our product to the next level.
+
+Check out our Defend promotion video to learn more: 
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/MgcgmH_REi4" frameborder="0" allowfullscreen="true"> </iframe> 
+</figure>
+
+Our open positions are listed on the GitLab [Jobs page](/jobs/apply/): Select "Defend" Under "Engineering", then "Developement".

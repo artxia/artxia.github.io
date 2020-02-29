@@ -1,0 +1,108 @@
+---
+layout: handbook-page-toc
+title: Configure Frontend Team
+---
+
+## On this page
+{:.no_toc .hidden-md .hidden-lg}
+
+- TOC
+{:toc .hidden-md .hidden-lg}
+
+## Overview
+The Configure frontend team works on the following Configure stage groups & GitLab projects:
+- [Orchestration](/handbook/product/categories/#orchestration-group)
+- [Serverless & PaaS](/handbook/product/categories/#system-group)
+- [GitLab Docs](https://gitlab.com/gitlab-org/gitlab-docs/)
+- [Pajamas Design System](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com)
+
+## Team Members
+
+The following people are permanent members of the Configure Frontend Team:
+
+<%= direct_team(manager_role: 'Frontend Engineering Manager, Configure') %>
+
+## Stable Counterparts
+
+The following members of other functional teams are our stable counterparts:
+
+<%= stable_counterparts(role_regexp: /[,&] (Configure|Serverless)/, direct_manager_role: 'Frontend Engineering Manager, Configure', other_manager_roles: []) %>
+
+### Group focus
+We work with both the `group::orchestration` and `group::system` backend engineering teams and to facilitate focus and priortization our team members are assigned to one of the two groups.
+Being assigned to a group doesn't mean you will exclusively work on that groups' work. 
+
+The intention is to allow the frontend engineers to focus on a smaller part of the product and optimize their learning and time spent in meetings.
+We also plan to rotate team members between the groups every few months.
+
+Current group focus:
+
+|-----------------+----------------------------+---------------------|
+| Team member     | Orchestration | System |
+|-----------------+----------------------------+---------------------|
+| [Mike Greiling](https://gitlab.com/mikegreiling) |  | ✅|
+|-----------------+------------+-----------------+----------------|
+| [Jacques Erasmus](https://gitlab.com/jerasmus) | ✅|  |
+|-----------------+------------+-----------------+----------------|
+| [Enrique Alcántara](https://gitlab.com/ealcantara) | ✅|  |
+|-----------------+------------+-----------------+----------------|
+
+### Backend & Frontend Issue Collaboration
+
+Our team follows the GitLab [workflow guidelines for working in teams](/handbook/engineering/workflow/#working-in-teams).
+
+Given a reasonable sized issue, that requires UX, frontend and backend work, the preferred way to collaborate on the issue is as follow:
+1. Once an issue is labeled,  `workflow::ready for development`  , backend is usually able to start working on the issue.
+	1. This is a good time to discuss and clarify interdependency between backend and frontend 
+1. Most of the time, only once the issue is marked as `UX Ready` , is it ready for frontend development.
+1. Backend and frontend will work on the issue in separated branches 
+	1. Each will submit their own MR for review
+	1. Frontend and backend will put the feature behind a feature flag
+1. Once both MRs have been merged, a third MR will be opened to integrate the work where backend and frontend will collaborate to:
+	1. Remove the feature flag
+	1. Add documentation
+	1. Implement e2e tests for the feature
+
+The above is a guideline and clear communication should be preferred over process to ensure the best collaboration strategy on an issue. For example on smaller issues, or where the frontend component of the work is minor, it may be feasible to work on the same branch.
+
+## Common Links
+
+ * Issue Trackers: 
+    * [Configure: Orchestration Frontend Deliverables](https://gitlab.com/groups/gitlab-org/-/boards/1217245?&label_name[]=frontend&label_name[]=group%3A%3Aorchestration)
+    * [Configure: System Frontend Deliverables](https://gitlab.com/groups/gitlab-org/-/boards/1235412?&label_name[]=frontend&label_name[]=group%3A%3Asystem)
+ * Slack Channels: 
+    * [#g_configure_fe](https://gitlab.slack.com/archives/g_configure_fe)
+    * [#s_configure](https://gitlab.slack.com/archives/s_configure)
+    * [#g_serverless](https://gitlab.slack.com/archives/g_serverless)
+
+## Responsibilities
+
+## Repos we own or use
+
+* [GitLab](https://gitlab.com/gitlab-org/gitlab) - Where much of the user facing code lives
+* [GitLab Docs](https://gitlab.com/gitlab-org/gitlab-docs/) (We are the default frontend support team for the docs project)
+
+## Scheduling
+
+### Feature development
+Our goal is to move towards a continuous delivery model such that the team completes tasks regularly and keeps working off of a prioritized backlog of issues and as such we default to team members self-scheduling their work:  
+
+* The team joins the weekly Orchestration and System group meetings, to stay informed around the issue priority and knowing when specific issues are ready for development.  
+* Once a team member has completed their assigned issues, they are expected to go to the group issue boards and assign themselves to the next unassigned issue in the list that has the `frontend` and `workflow:ready for development` labels.  
+* The issues on the board are prioritized based on importance (the higher they are on the list, the higher the priority).  
+* If all issues are assigned for the milestone, team members are expected to identifying the next available issue to work on based on the team's work prioritization (see below).
+* While backstage work is important, in the absence of specific prioritization the team will have a bias towards working on `bug` or `feature` categorized issues.
+
+### Bug fixing and priortized work
+In addition to the self-scheduling of feature development, the manager will from time-to-time assign bugs, or other work deemed important, directly to a team member.
+
+### Work prioritisation order
+1. Issues assigned directly to a team member by the manager
+1. Configure group issues
+    1. [Orchestration](https://gitlab.com/groups/gitlab-org/-/boards/1217245?&label_name[]=frontend&label_name[]=group%3A%3Aorchestration)
+	1. [System](https://gitlab.com/groups/gitlab-org/-/boards/1235412?&label_name[]=frontend&label_name[]=group%3A%3Asystem) issues
+1. Working group issues _(for when a team member is part of an active working group)_
+1. Docs project [issues](https://gitlab.com/gitlab-org/gitlab-docs/issues?label_name%5B%5D=team%3Aengineering&label_name%5B%5D=frontend&scope=all&sort=milestone&state=opened&utf8=%E2%9C%93)
+1. Pajamas Design System [frontend issues](https://gitlab.com/gitlab-org/gitlab-services/design.gitlab.com/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=frontend)
+
+If stakeholders from the Docs or Pajamas Design System projects want an issue priortized above other work they should reach out to the manager who will in consultation with the PM make a determination as to when the work can be accommodated.

@@ -1,0 +1,138 @@
+---
+layout: handbook-page-toc
+title: Expansion Group
+---
+
+## On this page
+{:.no_toc .hidden-md .hidden-lg}
+
+- TOC
+{:toc .hidden-md .hidden-lg}
+
+## Vision
+
+The Expansion Group is part of the [Growth section]
+and works to implement the Growth [Product Vision for Expansion](/direction/expansion/) and meet the
+[Expansion and Retention](/handbook/engineering/development/growth/performance-indicators/#expansion-and-user-retention)
+engineering KPIs.
+
+* I have a question. Who do I ask?
+
+Questions should start by @ mentioning the Product Manager for the [Expansion group](/handbook/product/categories/#expansion-group)
+or creating a new issue in the Growth Product [Expansion issues] list.
+
+## How we work
+
+* We're data savvy
+* In accordance with our [GitLab values]
+* Transparently: nearly everything is public
+* We get a chance to work on the things we want to work on
+* Everyone can contribute; no silos
+
+### Prioritization
+
+Prioritization is a collaboration between Product, UX, Data, and Engineering.
+
+* We use the [ICE framework](/direction/growth/#growth-ideation-and-prioritization) for experiments.
+* We use [Priority](https://docs.gitlab.com/ee/development/contributing/issue_workflow.html#priority-labels)
+and [Severity](https://docs.gitlab.com/ee/development/contributing/issue_workflow.html#severity-labels) labels for bugs.
+
+### Estimation
+
+| Weight | Description (Engineering) |
+| ------ | ------ |
+| 1 | Trivial: The simplest possible change. We are confident there will be no side effects. |
+| 2 | Small: A simple change (minimal code changes), where we understand all of the requirements. |
+| 3 | Medium: A simple change, but the code footprint is bigger (e.g. lots of different files, or tests effected). The requirements are clear. |
+| 5 | Large: A more complex change that will impact multiple areas of the codebase, there may also be some refactoring involved. Requirements are understood but you feel there are likely to be some gaps along the way. |
+
+Anything over a 5 (large) indicates the work should be broken down into smaller, clearly defined issues.
+
+### Workflow
+
+We use the [Product Development workflow](/handbook/product-development-flow/) when working on issues and
+merge requests across multiple projects.
+
+While not all of the work we do relates to the GitLab project directly, we use
+[milestones](https://docs.gitlab.com/ee/user/project/milestones/) to track `Deliverables` and other enhancements.
+
+#### Overview
+
+| Board | Description |
+| ------ | ------ |
+| [Planning] |  This board shows Expansion team work that has been allocated to a particular milestone. |
+| [Deliverables] | A subset of the milestone board shows issues the Product Manager has determined to be `Deliverables`. |
+
+#### Working boards
+
+| Board | Description |
+| ------ | ------ |
+| [Growth:Expansion Validation track] | The validation track is where the Product Manager - usually in collaboration with `UX` - defines what the team should aim to deliver. Once complete, the Product Manager will move to `workflow::planning breakdown` (larger issues) or straight to `workflow::scheduling` for Engineering to pick up. If there is no Engineering input required the issue can be closed.|
+| [Growth:Expansion Build track] | The Expansion Engineering group (`group::expansion`) schedules issues for development in the build phase, based on the Product Managers priorities. For `bugs` and `security issues`, [Priority](https://docs.gitlab.com/ee/development/contributing/issue_workflow.html#priority-labels) and Severity labels will have been added by the Product Manager. |
+| [Growth:Expansion Workflow] | This board shows the combined workflow including validation and build tracks. |
+
+Most of the above boards can be filtered by milestone to provide additional context around priority.
+For example a `P3` security issue ([due within 90 days](https://about.gitlab.com/handbook/engineering/security/#severity-and-priority-labels-on-security-issues))
+will be added to one of the next 3 milestones by the Engineering team during the `workflow::scheduling` stage to ensure that SLA is met.
+
+Some projects are under `gitlab-services` (internal). This requires separate issue boards.
+
+| Board | Description |
+| ------ | ------ |
+| [Growth:Expansion Validation track (gitlab-services)] | Product/UX validation track |
+| [Growth:Expansion Build track (gitlab-services)] | Engineering build track |
+| [Growth:Expansion Workflow (gitlab-services)] | Combined workflow board |
+
+## Team Members
+
+The following people are permanent members of the Expansion Group:
+
+<%= direct_team(manager_role: 'Engineering Manager, Growth:Expansion and Retention', role_regexp: /(Growth:Expansion)/) %>
+
+## Stable Counterparts
+
+We work closely with our colleagues in the [Retention](/handbook/engineering/development/growth/retention/), [Fulfillment](/handbook/engineering/development/growth/fulfillment/)
+and [Telemetry](/handbook/engineering/development/growth/acquisition-conversion-be-telemetry/) groups.
+
+The following members of other functional teams are our stable counterparts:
+
+<%=
+other_manager_roles = ['Director of Engineering, Growth']
+direct_managers_role = 'Engineering Manager, Growth:Expansion and Retention'
+roles_regexp = /[,&] (Growth)/
+
+stable_counterparts(role_regexp: roles_regexp, direct_manager_role: direct_managers_role, other_manager_roles: other_manager_roles)
+%>
+
+## Expansion Links
+* `#g_expansion` in [Slack](https://gitlab.slack.com/archives/g_expansion) (internal)
+* [Expansion issues]
+
+## Common Links
+
+* [Growth section]
+* [Growth issues board]
+* `#s_growth` in [Slack](https://gitlab.slack.com/archives/s_growth)
+* [Growth Performance Indicators]
+* [Growth opportunities]
+* [Growth meetings and agendas]
+* [GitLab values]
+
+[Expansion issues]: https://gitlab.com/gitlab-org/growth/product/issues?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=group%3A%3Aexpansion
+
+[Growth section]: /handbook/engineering/development/growth/
+[Growth issues board]: https://gitlab.com/groups/gitlab-org/-/boards/1158847
+[Growth Performance Indicators]: /handbook/engineering/development/growth/performance-indicators/
+[Growth opportunities]: https://gitlab.com/groups/gitlab-org/growth/-/issues
+[Growth meetings and agendas]: https://docs.google.com/document/d/1QB9uVQQFuKhqhPkPwvi48GaibKDwGAfKKqcF-s3Y6og
+[GitLab values]: /handbook/values/
+
+[Planning]: https://gitlab.com/groups/gitlab-org/-/boards/1370834?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=devops%3A%3Agrowth&label_name[]=group%3A%3Aexpansion
+[Deliverables]: https://gitlab.com/groups/gitlab-org/-/boards/1370834?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=devops%3A%3Agrowth&label_name[]=group%3A%3Aexpansion&label_name[]=Deliverable
+[Growth:Expansion Validation track]: https://gitlab.com/groups/gitlab-org/-/boards/1506660?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=devops%3A%3Agrowth&label_name%5B%5D=group%3A%3Aexpansion
+[Growth:Expansion Build track]: https://gitlab.com/groups/gitlab-org/-/boards/1506701?scope=all&utf8=%E2%9C%93&state=opened&label_name%5B%5D=devops%3A%3Agrowth&label_name%5B%5D=group%3A%3Aexpansion
+[Growth:Expansion Workflow]: https://gitlab.com/groups/gitlab-org/-/boards/1158847?scope=all&utf8=%E2%9C%93&state=opened&label_name[]=devops%3A%3Agrowth&label_name[]=group%3A%3Aexpansion
+
+[Growth:Expansion Validation track (gitlab-services)]: https://gitlab.com/groups/gitlab-services/-/boards/1509980
+[Growth:Expansion Build track (gitlab-services)]: https://gitlab.com/groups/gitlab-services/-/boards/1509985
+[Growth:Expansion Workflow (gitlab-services)]: https://gitlab.com/groups/gitlab-services/-/boards/1521362
