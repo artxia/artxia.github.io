@@ -115,202 +115,241 @@ CCTV第一剧场,http://live.hcs.cmvideo.cn:8088/ws_v/2018/dyjc/dyjc711/1000/ind
 
 
 港台,#genre#
-ANIMAX,vjms://58.215.133.154:8500/live/cid=498
-AXN,vjms://58.215.133.189:8500/live/cid=2
-BBC,vjms://58.215.133.154:8500/live/cid=418#http://77.83.242.11/gz168.php?id=bbc#http://106.54.30.243/gz009/gz.php?id=bbc#vjms://58.215.133.189:8500/live/cid=418
-BS-TBS,vjms://58.215.133.154:8500/live/cid=305
-BS洋片,vjms://58.215.133.154:8500/live/cid=307
-ChannelV,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QyMQ__
-CNBC,vjms://58.215.133.154:8500/live/cid=98#vjms://58.215.133.189:8500/live/cid=98
-CNN,vjms://58.215.133.154:8500/live/cid=428#vjms://58.215.133.189:8500/live/cid=428
-Discovery,vjms://58.215.133.154:8500/live/cid=496
-DiscoveryAsia,vjms://58.215.133.189:8500/live/cid=440
-DiscoveryChannel,vjms://58.215.133.189:8500/live/cid=3
-DiscoveryScience,vjms://58.215.133.189:8500/live/cid=457
-ELTA体育1台,vjms://58.215.133.189:8500:3502/live/cid=266#vjms://58.215.133.189:8500:3502/live/cid=266
-EX-Sports-TV,vjms://58.215.133.154:8500/live/cid=414
-FOX体育2台,vjms://58.215.133.189:8500:3502/live/cid=444#vjms://58.215.133.189:8500:3502/live/cid=444
-FOX体育3台,vjms://58.215.133.189:8500:3502/live/cid=95#vjms://58.215.133.189:8500:3502/live/cid=95
-GAORA SPORTS,vjms://58.215.133.154:8500/live/cid=413
-GOLF,vjms://58.215.133.189:8500/live/cid=409
-GOLF NTWORK,vjms://58.215.133.154:8500/live/cid=409
-HBOHD,vjms://58.215.133.189:8500/live/cid=261
-HISTORY,vjms://58.215.133.154:8500/live/cid=219
+&Flix,https://y5w8j4a9.ssl.hwcdn.net/andflixhd/tracks-v1a1/index.m3u8
+217 Stirr | The Asylum,https://dai.google.com/linear/hls/event/2r7F3DThT-C5YW21CUuGLQ/master.m3u8
+24 Box TV,http://51.158.190.97/hls/stream.m3u8
+ACC NETWORK,https://gma2.blab.email/acc.m3u8
+AXN,P2p://198.255.74.57:12396/5f3a536c000c81be989394b92abd1557.ts
+BabyFirst,P2p://198.255.74.57:12396/5f3a53790002f9e99893c51020fe386a.ts
+BabyTV,P2p://198.255.74.57:12396/5f3a53790003ca479893c5466b069d0d.ts
+BBC,http://77.83.242.11/gz168.php?id=bbc#http://106.54.30.243/gz009/gz.php?id=bbc#P2p://198.255.74.57:12396/5f3a5372000a85c79893aba757c5c8ee.ts
+BBC earth,P2p://198.255.74.57:12396/5f3a53720008e09d9893ab3b82ec514f.ts
+BBC Lifestyle,P2p://198.255.74.57:12396/5f3a53720009b26b9893ab71227232dd.ts
+BBC动画,P2p://198.255.74.57:12396/5f3a53bf000407f39894d6c53cca8c52.ts
+Bloomberg,P2p://198.255.74.57:12396/5f3a5379000671489893c5f3b7331b3b.ts
+Boomerang,P2p://198.255.74.57:12396/5f3a536c0009f43f989394118a36ba04.ts
+CatchPlay,P2p://198.255.74.57:12396/5f3a5373000051f99893acf2e8572ef4.ts
+CBS (USA),http://161.0.157.5/PLTV/88888888/224/3221227041/01.m3u8
+CBS miami,http://161.0.157.50/PLTV/88888888/224/3221227041/4.m3u8
+CBS Sports HQ,http://dai.google.com/linear/hls/event/9Lq0ERvoSR-z9AwvFS-xYA/master.m3u8
+China Movie,P2p://198.255.74.57:12396/5f3a53bf00021d8a9894d6488777bd08.ts
+CinemaWorld,P2p://198.255.74.57:12396/5f3a53c500061b419894eebd187865dd.ts
+CINEMAX,P2p://198.255.74.57:12396/5f3a53cc000bec5598950b935d93b387.ts
+Cinemax (East),https://edge.roku-live.top.comcast.net/out/u/cinemax-east.m3u8
+Cinemax (West),https://edge.roku-live.top.comcast.net/out/u/cinemax-west.m3u8
+Ci罪案侦缉,P2p://198.255.74.57:12396/5f3a537900007c0f9893c46dc61350cc.ts
+CN 卡通,P2p://198.255.74.57:12396/5f3a5379000594129893c5bba59dd6c5.ts
+CNBC,P2p://198.255.74.57:12396/5f3a536c000acaa198939448796d72dd.ts
+CNN,P2p://198.255.74.57:12396/5f3a536c000baa3a989394822c51da5f.ts
+Discovery EVE,P2p://198.255.74.57:12396/5f3a537f000ba3b49893deb82e518ca2.ts
+Discovery 动力频道,P2p://198.255.74.57:12396/5f3a537f000d788f9893df305bdef03c.ts
+Discovery 科学频道,P2p://198.255.74.57:12396/5f3a537f000c89119893def338fd1f27.ts
+Disney迪士尼,P2p://198.255.74.57:12396/5f3a53790004a1d39893c57db20e3197.ts
+DW-TV,P2p://198.255.74.57:12396/5f3a536c00076a5d9893936bab581345.ts
+E! Entertainment,P2p://198.255.74.57:12396/5f3a5379000151ee9893c4a4251786a7.ts
+ELTA体育,P2p://198.255.74.57:12396/5f3a53b90007478f9894c02a5b8a458b.ts
+ELTA影剧,P2p://198.255.74.57:12396/5f3a53b900081e999894c06171b8a0c0.ts
+ELTA综合,P2p://198.255.74.57:12396/5f3a53b90008f9929894c0992113e8c0.ts
+Epix (East),https://edge.roku-live.top.comcast.net/out/u/epix-east.m3u8
+Epix 2 (East),https://edge.roku-live.top.comcast.net/out/u/epix2-east.m3u8
+ESPN,https://gma2.blab.email/fs2.m3u8
+ESPN 2,https://gma2.blab.email/espn2.m3u8
+ESPN News,https://gma2.blab.email/espnews.m3u8
+ESPN U,https://gma2.blab.email/espnu.m3u8
+EYETV旅游,P2p://198.255.74.57:12396/5f3a53a50004f62b989471725f5ed1bc.ts
+EYETV戏剧,P2p://198.255.74.57:12396/5f3a53a500041d9a9894713b98099cf2.ts
+Fashiontv,P2p://198.255.74.57:12396/5f3a537900003cac9893c45df257e06e.ts
+FOX,P2p://198.255.74.57:12396/5f3a53cd000103c198950cb0999e683f.ts#https://gma2.blab.email/fox.m3u8
+FOX CRIME,P2p://198.255.74.57:12396/5f3a53cc000da70598950c044f59bfb7.ts
+FOX MOVIES,P2p://198.255.74.57:12396/5f3a53cd00002d4b98950c7940b9a632.ts
+FOX NEWS,P2p://198.255.74.57:12396/5f3a53cc000cc88b98950bcbe28f8c85.ts
+FOX SPORTS,P2p://198.255.74.57:12396/5f3a53bf00083b389894d7d9ae66357c.ts
+FOX SPORTS 3,P2p://198.255.74.57:12396/5f3a53bf000763a09894d7a1e210f15e.ts
+FOX家庭影院HD,P2p://198.255.74.57:12396/5f3a53cc000e9a1498950c427bc9dabd.ts
+FRANCE 24-English,P2p://198.255.74.57:12396/5f3a53720008a9bf9893ab2d2d8e71bd.ts
+FX,P2p://198.255.74.57:12396/5f3a53cd0001e15798950ce8aadc1ad7.ts
+GOLF,P2p://198.255.74.57:12396/5f3a5372000de9c29893ac8512941ab2.ts
+HBO,P2p://198.255.74.57:12396/5f3a53c50003581b9894ee084a56696c.ts
+HBO (East),https://edge.roku-live.top.comcast.net/out/u/hbo-east.m3u8
+HBO (West),https://edge.roku-live.top.comcast.net/out/u/hbo-west.m3u8
+HBO Hits,P2p://198.255.74.57:12396/5f3a53cd0003988398950d590f1386e4.ts
+HBO Signature,P2p://198.255.74.57:12396/5f3a53cd0002bdc798950d21e3ea5b8c.ts
+History,P2p://198.255.74.57:12396/5f3a537f00082a179893ddd4a70e286a.ts
+History2,P2p://198.255.74.57:12396/5f3a537f00074d649893dd9c246d8433.ts
 HKC新闻台,http://liveima.utvlive.top/livehls/MOB-SCC/index.m3u8
-J-Sports-1,vjms://58.215.133.154:8500/live/cid=415
-J-Sports-2,vjms://58.215.133.154:8500/live/cid=416
-J-Sports-3,vjms://58.215.133.154:8500/live/cid=410
-J-Sports-4,vjms://58.215.133.154:8500/live/cid=411
-KBSWORLD,vjms://58.215.133.154:8500/live/cid=216
-KIDS,vjms://58.215.133.154:8500/live/cid=494
-MGS,vjms://58.215.133.154:8500/live/cid=319
-Movie Plus,vjms://58.215.133.154:8500/live/cid=497
-Music-JAPAN,vjms://58.215.133.154:8500/live/cid=495
-NHK World,vjms://58.215.133.154:8500/live/cid=309
-NHKBSP,vjms://58.215.133.154:8500/live/cid=303
-NHKE,vjms://58.215.133.154:8500/live/cid=318
-NHKG,vjms://58.215.133.154:8500/live/cid=317
-NOW华剧,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzNTU_
-NOW新闻,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzOTY_
-now新闻台,p8p://0198.02686.cc:16871/5e565c070000cb6f2d78cad5c040fa7b
-NOW直播,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q0MDA_
-now直播台,p8p://0198.02686.cc:16871/5f2cb8a50005cce1172a735005454a58
-SUN,vjms://58.215.133.154:8500/live/cid=320
-TBS,vjms://58.215.133.154:8500/live/cid=314
-TBS1,vjms://58.215.133.154:8500/live/cid=221
-TBSNEWS,vjms://58.215.133.154:8500/live/cid=220
-TLC旅游生活,vjms://58.215.133.189:8500/live/cid=103
-TVBJ2,p8p://0198.02686.cc:16871/5d1a6990000c457811bd52c53e48f6b9.ts#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzOTI_
-TVBSHD,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q4OA__
-TVBS欢乐,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q0MA__
-TVBS精采,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q2Ng__
-TVBS新闻,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Qy
-TVBS新聞,p8p://0198.02686.cc:16871/5db05ca40003699da50b30c835589bf5.ts#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRHR2YnN4dw__
-TVB翡翠,http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=188&Fsv_rate_id=1&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1#http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=188&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv&_res_tag_=video#http://116.199.5.51:8114/00000000/2e368e04c76446bc9d30ca7a9f934dae/index.m3u8?Fsv_cid=1034&Fsv_chan_hls_se_idx=188&Fsv_ctype=LIVES&version=9&Fsv_rate_id=1&Fsv_otype=1&FvSeid=5abd1660af1babb4&Pcontent_id=7f88be5fb6fd426494f6aa240f1dc7a9&Provider_id=00000000&Fsv_filetype=1&Fsv_ShiftEnable=0&Fsv_SV_PARAM1=0&Fsv_ShiftTsp=240&Fsv_CMSID=00000000&AuthInfo=P2ZSH2gNMZ8aiVfV%2BjCYczoGsAYoDo4KY5I3eHfJhGTKdSzgLwCHoSet9it9fXrMLwehJxh9gmO%2F%0AOFrWyxI%2BtteLTJnZKT7Lg8BRYQNXMQU%3D%0A#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzOTA_
-TVB翡翠台,vjms://58.215.133.154:8500/live/cid=362
-TVB经典,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzOTg_
-TVB明珠,http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=12&Fsv_rate_id=1&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1#http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=12&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzOTE_
-TVB明珠台,vjms://58.215.133.154:8500/live/cid=367
+HongKong开电视,http://livetv.dnsfor.me:80/channel.9.m3u8
+JET 综合,P2p://198.255.74.57:12396/5f3a53b9000d35639894c1af2375729f.ts
+LUXE TV,P2p://198.255.74.57:12396/5f3a536c00083f99989393a26db507e5.ts
+Mezzo Live,P2p://198.255.74.57:12396/5f3a536c00091dea989393db50b1af72.ts
+MNX,https://timesnow.airtel.tv/live/#_pull/master.m3u8
+MOMO亲子台,P2p://198.255.74.57:12396/5f3a53bf00068a3b9894d76aaacc1ea5.ts
+Movies Now,https://timesnow.airtel.tv/live/MN_pull/master.m3u8
+MTV LIVE,P2p://198.255.74.57:12396/5f3a5372000b5ccc9893abde509bb8e9.ts
+MY KIDS,P2p://198.255.74.57:12396/5f3a5373000127979893ad2961d164c7.ts
+NBA,P2p://198.255.74.57:12396/5f3a5372000ebd589893acbb8c709707.ts
+New York: CBS News,https://cbsn-ny-cedexis.cbsnstream.cbsnews.com/out/v1/ec3897d58a9b45129a77d67aa247d136/master.m3u8
+Nick Jr,P2p://198.255.74.57:12396/5f3a5373000217579893ad662db50ae5.ts
+OUTDOOR,P2p://198.255.74.57:12396/5f3a537900082bb19893c665244a4054.ts
+RHK31,http://livetv.dnsfor.me:80/channel.1.m3u8
+RHK32,P2p://198.255.74.57:12396/5f3a5386000882e99893f94370882a80.ts#http://livetv.dnsfor.me:80/channel.2.m3u8
+SEC NETWORK,https://gma2.blab.email/sec.m3u8
+Showtime (East),https://edge.roku-live.top.comcast.net/out/u/showtime-east.m3u8
+Showtime (West),https://edge.roku-live.top.comcast.net/out/u/showtime-west.m3u8
+Sky Sports Action,P2p://198.255.74.57:12396/5f3a537f0004c82e9893dcf746f7a26f.ts
+Sky Sports Cricket,P2p://198.255.74.57:12396/5f3a537f0003f5219893dcc04f38adfe.ts
+Sky Sports Golf,P2p://198.255.74.57:12396/5f3a537f0003b3ce9893dcb08247f19c.ts
+Sky Sports MainEvent,P2p://198.255.74.57:12396/5f3a537f00059f149893dd2e1796ac5b.ts
+Sky Sports Mix,P2p://198.255.74.57:12396/5f3a537f000676409893dd65fa7f3cb7.ts
+STARZ (East),https://edge.roku-live.top.comcast.net/out/u/starz-encore.m3u8
+STARZ (West),https://edge.roku-live.top.comcast.net/out/u/starz-west.m3u8
+Sundance channel,P2p://198.255.74.57:12396/5f3a5372000c35969893ac1521d66e2c.ts
+TBS East,https://tve-live-lln.warnermediacdn.com/hls/live/572094/tbse/aes_slate/VIDEO_0_3564000.m3u8
+TBS West,https://tve-live-lln.warnermediacdn.com/hls/live/572097/tbsw/aes_slate/VIDEO_0_3564000.m3u8
+Test,P2p://198.255.74.57:12396/5f3a53d30008e1dc989526230286aa73.ts
+TNT,https://tve-live-lln.warnermediacdn.com/hls/live/572089/tnte/aes_slate/VIDEO_0_3564000.m3u8
+TRAVEL,P2p://198.255.74.57:12396/5f3a537900074bfd9893c62b6c079da2.ts
+TV5,P2p://198.255.74.57:12396/5f3a536c000d5cdf989394f1e6937eea.ts
+TVB 翡翠台,http://livetv.dnsfor.me:80/channel.18.m3u8
+TVBJ2,P2p://198.255.74.57:12396/5f3a53d3000808a8989525ecb86f10e4.ts
+TVBS,P2p://198.255.74.57:12396/5f3a539f00043c7e989459d34c3eac82.ts
+TVBS欢乐,P2p://198.255.74.57:12396/5f3a539f0004794f989459e23f070d44.ts
+TVBS新闻,https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRHR2YnN4dw__#P2p://198.255.74.57:12396/5f3a539f00054e4098945a19744ec6b5.ts
+TVB翡翠,http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=188&Fsv_rate_id=1&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1#http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=188&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv&_res_tag_=video#http://116.199.5.51:8114/00000000/2e368e04c76446bc9d30ca7a9f934dae/index.m3u8?Fsv_cid=1034&Fsv_chan_hls_se_idx=188&Fsv_ctype=LIVES&version=9&Fsv_rate_id=1&Fsv_otype=1&FvSeid=5abd1660af1babb4&Pcontent_id=7f88be5fb6fd426494f6aa240f1dc7a9&Provider_id=00000000&Fsv_filetype=1&Fsv_ShiftEnable=0&Fsv_SV_PARAM1=0&Fsv_ShiftTsp=240&Fsv_CMSID=00000000&AuthInfo=P2ZSH2gNMZ8aiVfV%2BjCYczoGsAYoDo4KY5I3eHfJhGTKdSzgLwCHoSet9it9fXrMLwehJxh9gmO%2F%0AOFrWyxI%2BtteLTJnZKT7Lg8BRYQNXMQU%3D%0A#P2p://198.255.74.57:12396/5f3a53d300064d859895257a87b823ea.ts
+TVB明珠,http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=12&Fsv_rate_id=1&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1#http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=12&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1#P2p://198.255.74.57:12396/5f3a5386000954349893f97977ded262.ts
 TVB新闻,http://60.199.188.65/HLS/WG_TVBS-N/02.m3u8
-TVB星河,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QyMg__
-TVO7,vjms://58.215.133.154:8500/live/cid=322
-TVTOKD,vjms://58.215.133.154:8500/live/cid=315
-VIUTV,p8p://0198.02686.cc:16871/5f2cb706000ed2b7172420872f151703#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q3Mg__
-VIUTV6,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QxNzY_
-WOWOWプライム,OWOWﾌﾟライムvjms://58.215.133.154:8500/live/cid=205
-ファミリ?`剧场 - Family theather HD,vjms://58.215.133.154:8500/live/cid=493
-澳门莲花,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q3MA__
-澳门卫星,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QyOQ__
-澳视澳门,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QyMw__
-澳视葡语,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QyNA__
-澳亚卫视,vjms://58.215.133.154:8500/live/cid=337
-八大第一,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzMTg_
-八大精彩,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QxMDI0
-八大戏剧,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q4MQ__
-八大综合,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q5MA__
-博斯高球,vjms://58.215.133.189:8500:3502/live/cid=265#vjms://58.215.133.189:8500:3502/live/cid=265
-朝日1,vjms://58.215.133.154:8500/live/cid=223
-迪士尼,vjms://58.215.133.189:8500:3502/live/cid=361#vjms://58.215.133.189:8500:3502/live/cid=361#vjms://58.215.133.154:8500/live/cid=499
-东森财经,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QxMg__
-东森超视,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q4MA__
-东森电影,http://104.250.154.42:8080/ZZ_dongsendianying/ZZ_dongsendianying.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzNTA_
-东森戏剧,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzMjE_
-东森新闻,p8p://0198.02686.cc:16871/5d1a69c2000a678211be159b7e5802a8.ts#http://104.250.154.42:8080/ZZ_dongsenxinwen/ZZ_dongsenxinwen.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q5
-东森洋片,http://104.250.154.42:8080/ZZ_dongsenyangpian/ZZ_dongsenyangpian.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QxMTI4
-东森幼幼,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzNzE_
-东森综合,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzNzI_
-東森財經,https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRGRzZmluYW5jZQ__
-東森新聞,https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRGRzeHc_
-动物星球,vjms://58.215.133.189:8500:3502/live/cid=3
-多伦多,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QxMDMx
-多伦多2,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QxMDMz
-法国时尚,vjms://58.215.133.189:8500:3502/live/cid=399
-非凡新闻,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzMTQ_
-非凡新聞,p8p://0198.02686.cc:16871/5d1a69d500091c6b11be5f7e1276fa82.ts
-翡翠台,vjms://58.215.133.154:8500:3502/live/cid=362#http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=188&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv&_res_tag_=video#p8p://0198.02686.cc:16871/5f378d9b0003c2e4417a53bb22d95282.ts
-凤凰电影,http://hdtv.haust.edu.cn/hls/fhdy.m3u8#rtmp://58.200.131.2:1935/livetv/fhdy#rtmp://ivi.bupt.edu.cn/livetv/fhdy#rtmp://ivi.bupt.edu.cn:1935/livetv/fhdy#https://2d9177eadbb3094826e878458d4300c3.live.prod.hkatv.com/p2_cbr_lo_720p.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QxOQ__
-凤凰香港,http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8#http://183.207.249.34/PLTV/3/224/3221226975/index.m3u8#http://183.207.249.36/PLTV/3/224/3221226975/index.m3u8#http://125.89.166.215/live-hwcdn.utvlive.top/live/a4e8cf74196e40959485a9ef4c532d02/6286b2bbb78341cd9fa92c7b37ccc03c-1.m3u8#http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8#http://183.207.249.34/PLTV/3/224/3221226975/index.m3u8#http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8#http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8?icpid=88888888&from=0&hms_devid=3804#http://223.82.250.72/live/fhhongkong/1.m3u8#https://2d9177eadbb3094826e878458d4300c3.live.prod.hkatv.com/p2_cbr_lo_720p.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzNTg_
-凤凰中文,http://112.17.40.140/PLTV/88888888/224/3221226368/index.m3u8#http://live-hwcdn.utvlive.top/live/551a1a8c3aca46708fd285217be3c96e/4538203d786e4803bac20e36392cffd9-1.m3u8#http://111.13.42.10/PLTV/88888888/224/3221225942/1.m3u8#http://117.169.124.37:6610/ysten-businessmobile/live/fhchinese/1.m3u8#http://221.179.217.9//otttv.bj.chinamobile.com/PLTV/88888888/224/3221225942/1.m3u8#http://223.110.245.136/PLTV/3/224/3221226923/index.m3u8#http://117.169.124.43:6610/ysten-businessmobile/live/fhchinese/index.m3u8#http://221.179.217.70/PLTV/88888888/224/3221225942/1.m3u8#http://125.89.166.215/live-hwcdn.utvlive.top/live/551a1a8c3aca46708fd285217be3c96e/4538203d786e4803bac20e36392cffd9-1.m3u8#http://112.17.40.142/PLTV/88888888/224/3221226368/index.m3u8#http://112.17.40.139:80/PLTV/88888888/224/3221226368/index.m3u8?icpid=88888888&from=30&hms_devid=1452#http://117.148.187.59/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228608/index.m3u8#http://111.0.93.5:80/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228608/01.m3u8#http://112.17.40.140/PLTV/88888888/224/3221226368/index.m3u8#http://117.169.120.138:8080/live/fhchinese/.m3u8#http://221.179.217.70/PLTV/88888888/224/3221225942/1.m3u8#http://hdtv.haust.edu.cn/hls/fhzw.m3u8#http://live.centerch.com/fhzw.m3u8#rtmp://58.200.131.2:1935/livetv/fhzw#http://117.169.124.37:6610/ysten-businessmobile/live/fhchinese/1.m3u8#vjms://58.215.133.154:8500/live/cid=400#http://live.centerch.com/fhws.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/贵州有线.php?id=264
-凤凰资讯,http://112.17.40.140/PLTV/88888888/224/3221226491/index.m3u8#http://221.179.217.9//otttv.bj.chinamobile.com/PLTV/88888888/224/3221225949/1.m3u8#http://117.169.124.37:6610/ysten-businessmobile/live/fhzixun/1.m3u8#http://111.13.42.10/PLTV/88888888/224/3221225949/1.m3u8#http://117.169.124.43:6610/ysten-businessmobile/live/fhzixun/index.m3u8#rtmp://ivi.bupt.edu.cn:1935/livetv/fhzx#http://117.148.187.100/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228597/index.m3u8#http://117.148.187.12/PLTV/88888888/224/3221226491/index.m3u8#http://112.17.40.142/PLTV/88888888/224/3221226491/index.m3u8#http://112.17.40.140/PLTV/88888888/224/3221226491/index.m3u8#http://112.17.40.197:80/PLTV/88888888/224/3221226491/index.m3u8?icpid=88888888&from=30&hms_devid=1452#http://117.148.187.100/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228597/index.m3u8#http://117.148.187.12/PLTV/88888888/224/3221226491/index.m3u8#http://117.169.120.160:8080/live/fhzixun/1.m3u8#http://live.centerch.com/fhzx.m3u8#rtmp://ivi.bupt.edu.cn:1935/livetv/fhzx#http://117.169.124.37:6610/ysten-businessmobile/live/fhzixun/1.m3u8#https://81e0996f61b8eabc6b95e3a16c274256.live.prod.hkatv.com/p1_cbr_lo.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/贵州有线.php?id=265
-港台31,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzNTM_
-港台32,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzOTc_
-公视,http://p06.iptv2asia.com:18888/http/016?dsjtv.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q4Ng__
+TVB-星河,P2p://198.255.74.57:12396/5f3a538c000a1c299894111c73146cb4.ts
+tvN,P2p://198.255.74.57:12396/5f3a536c000f0bfb9893955f792fd786.ts
+ViuTu,P2p://198.255.74.57:12396/5f3a5386000788659893f90394533b1b.ts
+ViuTu_6,P2p://198.255.74.57:12396/5f3a53860006afb89893f8cbe23c8bd7.ts
+Warner Bros,P2p://198.255.74.57:12396/5f3a53730002f23f9893ad9ec3ce0e38.ts
+阿里郎电视台,P2p://198.255.74.57:12396/5f3a53a50003451198947103c150d616.ts
+澳门莲花,P2p://198.255.74.57:12396/5f3a5386000411199893f8206e9fe4ab.ts
+八大第一台,P2p://198.255.74.57:12396/5f3a539f0008cbb498945afe311ffe77.ts
+八大戏剧,P2p://198.255.74.57:12396/5f3a539f0007d91498945abf76c5b462.ts
+八大娱乐台,P2p://198.255.74.57:12396/5f3a539f0007010898945a88453c5380.ts
+八大综合,P2p://198.255.74.57:12396/5f3a539f000627cf98945a51bb2e3bcd.ts
+博斯高球Ⅱ,P2p://198.255.74.57:12396/5f3a53b900039efa9894bf3a995a5317.ts
+博斯高球一台,P2p://198.255.74.57:12396/5f3a53bf000931899894d8183971fbf0.ts
+博斯网球,P2p://198.255.74.57:12396/5f3a53bf000adc0f9894d8855c695bd4.ts
+博斯无限,P2p://198.255.74.57:12396/5f3a53bf000a07e69894d84f09b3d017.ts
+博斯运动1,P2p://198.255.74.57:12396/5f3a53b90003dab19894bf4a05927241.ts
+博斯运动II,P2p://198.255.74.57:12396/5f3a53bf000bb3dd9894d8bce2c4a089.ts
+大爱一台,P2p://198.255.74.57:12396/5f3a53bf0004dc349894d6fcd16886f0.ts
+电影一台,P2p://198.255.74.57:12396/5f3a5385000f247e9893f70e376506ff.ts
+东森财经,https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRGRzZmluYW5jZQ__
+东森财经新闻,P2p://198.255.74.57:12396/5f3a53930000e1f198942a1733779a8d.ts
+东森电影,http://104.250.154.42:8080/ZZ_dongsendianying/ZZ_dongsendianying.m3u8#P2p://198.255.74.57:12396/5f3a539300000d74989429e13d10ce0d.ts
+东森戏剧,P2p://198.255.74.57:12396/5f3a539a0003c9f39894462d0cdb7958.ts
+东森新闻,http://104.250.154.42:8080/ZZ_dongsenxinwen/ZZ_dongsenxinwen.m3u8#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRGRzeHc_
+东森新闻台,P2p://198.255.74.57:12396/5f3a53930001bc6498942a4f9eb4da4b.ts
+东森洋片,http://104.250.154.42:8080/ZZ_dongsenyangpian/ZZ_dongsenyangpian.m3u8#P2p://198.255.74.57:12396/5f3a5392000e7a3b989429aadd021be8.ts
+东森幼幼,P2p://198.255.74.57:12396/5f3a539a0002ebaf989445f5c35d9267.ts
+东森综合,P2p://198.255.74.57:12396/5f3a5392000e3d0e9894299ae632fe6a.ts
+动物星球,P2p://198.255.74.57:12396/5f3a53790009f0f49893c6d9f29549dc.ts
+非凡新闻,P2p://198.255.74.57:12396/5f3a53930007b63c98942bd7400dab9d.ts
+凤凰电影,http://hdtv.haust.edu.cn/hls/fhdy.m3u8#https://2d9177eadbb3094826e878458d4300c3.live.prod.hkatv.com/p2_cbr_lo_720p.m3u8
+凤凰香港,http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8#http://183.207.249.34/PLTV/3/224/3221226975/index.m3u8#http://183.207.249.36/PLTV/3/224/3221226975/index.m3u8#http://125.89.166.215/live-hwcdn.utvlive.top/live/a4e8cf74196e40959485a9ef4c532d02/6286b2bbb78341cd9fa92c7b37ccc03c-1.m3u8#http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8#http://183.207.249.34/PLTV/3/224/3221226975/index.m3u8#http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8#http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8?icpid=88888888&from=0&hms_devid=3804#http://223.82.250.72/live/fhhongkong/1.m3u8#https://2d9177eadbb3094826e878458d4300c3.live.prod.hkatv.com/p2_cbr_lo_720p.m3u8
+凤凰中文,http://112.17.40.140/PLTV/88888888/224/3221226368/index.m3u8#http://live-hwcdn.utvlive.top/live/551a1a8c3aca46708fd285217be3c96e/4538203d786e4803bac20e36392cffd9-1.m3u8#http://111.13.42.10/PLTV/88888888/224/3221225942/1.m3u8#http://117.169.124.37:6610/ysten-businessmobile/live/fhchinese/1.m3u8#http://221.179.217.9//otttv.bj.chinamobile.com/PLTV/88888888/224/3221225942/1.m3u8#http://223.110.245.136/PLTV/3/224/3221226923/index.m3u8#http://117.169.124.43:6610/ysten-businessmobile/live/fhchinese/index.m3u8#http://221.179.217.70/PLTV/88888888/224/3221225942/1.m3u8#http://125.89.166.215/live-hwcdn.utvlive.top/live/551a1a8c3aca46708fd285217be3c96e/4538203d786e4803bac20e36392cffd9-1.m3u8#http://112.17.40.142/PLTV/88888888/224/3221226368/index.m3u8#http://112.17.40.139:80/PLTV/88888888/224/3221226368/index.m3u8?icpid=88888888&from=30&hms_devid=1452#http://117.148.187.59/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228608/index.m3u8#http://111.0.93.5:80/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228608/01.m3u8#http://112.17.40.140/PLTV/88888888/224/3221226368/index.m3u8#http://117.169.120.138:8080/live/fhchinese/.m3u8#http://221.179.217.70/PLTV/88888888/224/3221225942/1.m3u8#http://hdtv.haust.edu.cn/hls/fhzw.m3u8#http://live.centerch.com/fhzw.m3u8#http://117.169.124.37:6610/ysten-businessmobile/live/fhchinese/1.m3u8#http://live.centerch.com/fhws.m3u8#P2p://198.255.74.57:12396/5f3a538600033bb69893f7e92dc97cce.ts
+凤凰资讯,http://112.17.40.140/PLTV/88888888/224/3221226491/index.m3u8#http://221.179.217.9//otttv.bj.chinamobile.com/PLTV/88888888/224/3221225949/1.m3u8#http://117.169.124.37:6610/ysten-businessmobile/live/fhzixun/1.m3u8#http://111.13.42.10/PLTV/88888888/224/3221225949/1.m3u8#http://117.169.124.43:6610/ysten-businessmobile/live/fhzixun/index.m3u8#http://117.148.187.100/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228597/index.m3u8#http://117.148.187.12/PLTV/88888888/224/3221226491/index.m3u8#http://112.17.40.142/PLTV/88888888/224/3221226491/index.m3u8#http://112.17.40.140/PLTV/88888888/224/3221226491/index.m3u8#http://112.17.40.197:80/PLTV/88888888/224/3221226491/index.m3u8?icpid=88888888&from=30&hms_devid=1452#http://117.148.187.100/hwltc.tv.cdn.zj.chinamobile.com/PLTV/88888888/224/3221228597/index.m3u8#http://117.148.187.12/PLTV/88888888/224/3221226491/index.m3u8#http://117.169.120.160:8080/live/fhzixun/1.m3u8#http://live.centerch.com/fhzx.m3u8#http://117.169.124.37:6610/ysten-businessmobile/live/fhzixun/1.m3u8#https://81e0996f61b8eabc6b95e3a16c274256.live.prod.hkatv.com/p1_cbr_lo.m3u8#P2p://198.255.74.57:12396/5f3a53860002639b9893f7b2e8fd4d5e.ts
+公视,http://p06.iptv2asia.com:18888/http/016?dsjtv.m3u8#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRHR3Z3M_#P2p://198.255.74.57:12396/5f3a538c0004eea398940fc8c65f9b48.ts
 公视3,http://p06.iptv2asia.com:18888/http/018?dsjtv.m3u8
 公视台湾,http://p06.iptv2asia.com:18888/http/017?dsjtv.m3u8
-公视戏剧,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q2OQ__
-公視,https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRHR3Z3M_
-关西-地面波电视台,vjms://58.215.133.154:8500/live/cid=323
-广东体育,vjms://58.215.133.189:8500/live/cid=336
-广东珠江,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QxMDM0
-国家地理,vjms://58.215.133.189:8500:3502/live/cid=115
-国家地理野生,vjms://58.215.133.189:8500:3502/live/cid=263
+国家地理,P2p://198.255.74.57:12396/5f3a537f000abcfa9893de7db6928be2.ts
+国家地理People,P2p://198.255.74.57:12396/5f3a537f0009e58d9893de46d2c10894.ts
+国家地理野生频道,P2p://198.255.74.57:12396/5f3a537f00090a3e9893de0e01c4e124.ts
+国兴卫视,P2p://198.255.74.57:12396/5f3a53b90005876e9894bfb78ef3f947.ts
 好莱坞电影,http://104.250.154.42:8080/ZZ_haolaiwu/ZZ_haolaiwu.m3u8
-华视,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzMg__
+好莱坞电影台,P2p://198.255.74.57:12396/5f3a53c50006f0f49894eef4008cdac6.ts
+好消息2,P2p://198.255.74.57:12396/5f3a53bf0005b2399894d7322fbbe635.ts
+华视,P2p://198.255.74.57:12396/5f3a538c00006c5598940ea1739b185f.ts
 华视教育,http://p06.iptv2asia.com:18888/http/011?dsjtv.m3u8
-华视新闻,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q2#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRGhzeHc_
-寰宇台湾,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q4Nw__#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRGh5dHc_
-寰宇新闻,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzMDQ_#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRGh5eHc_
-靖天电影,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QxMTA_
-靖天国际,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzNDU_
-靖天欢乐,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q1MQ__
-靖天卡通,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzNDQ_
-靖天日本,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QxMDg_
-靖天戏剧,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QxMDk_
-靖天映画,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzNDk_
-靖天育乐,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QxMDI5
-靖天资讯,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q0OQ__
-靖天综合,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzMDg_
-民视,http://p06.iptv2asia.com:18888/http/012?dsjtv.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QyNg__#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRHR3bXM_
-民视第一台,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzNA__#http://p06.iptv2asia.com:18888/http/014?dsjtv.m3u8#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRG1zZHk_
-民视旅游,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q3OA__
-民视台湾,http://p06.iptv2asia.com:18888/http/013?dsjtv.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzNg__#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRG1zdHc_
-民视新闻,http://p06.iptv2asia.com:18888/http/010?dsjtv.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QxMw__#p8p://0198.02686.cc:16871/5d1a69c50008f95211be20f5ac2747e5.ts#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRG1zeHc_
-民视影剧,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QxMDIz
+华视新闻,https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRGhzeHc_
+寰宇财经,P2p://198.255.74.57:12396/5f3a53b9000aad889894c10954d3a4db.ts
+寰宇台湾,https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRGh5dHc_
+寰宇新闻,https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRGh5eHc_
+寰宇新闻频道,P2p://198.255.74.57:12396/5f3a53b9000b83829894c140122e4483.ts
+寰宇综合,P2p://198.255.74.57:12396/5f3a53b9000c5d369894c1773dcbf04b.ts
+靖天电影台,P2p://198.255.74.57:12396/5f3a53a5000af8d1989472fcfe4cff2d.ts
+靖天国际台,P2p://198.255.74.57:12396/5f3a53a50009493b9894728e651f7e79.ts
+靖天卡通台,P2p://198.255.74.57:12396/5f3a53a5000bcd6098947333d0e9e5b6.ts
+靖天日本,P2p://198.255.74.57:12396/5f3a53a5000792c79894721d48ff33e9.ts
+靖天映画,P2p://198.255.74.57:12396/5f3a53a5000a1b76989472c4548f615a.ts
+靖天育乐台,P2p://198.255.74.57:12396/5f3a53a500087160989472567da6b103.ts
+靖天资讯,P2p://198.255.74.57:12396/5f3a53a50002ffd6989470f23215b41b.ts
+靖洋卡通,P2p://198.255.74.57:12396/5f3a53a5000ca4799894736afd4884bb.ts
+靖洋戏剧台,P2p://198.255.74.57:12396/5f3a53a50006bbff989471e65a16dbfd.ts
+龙华动画,P2p://198.255.74.57:12396/5f3a539a0000683b989445504a76ce9c.ts
+龙华经典,P2p://198.255.74.57:12396/5f3a5399000b336c9894442b8a1d3df7.ts
+龙华偶像,P2p://198.255.74.57:12396/5f3a5399000cfa47989444a0530275ef.ts
+龙华戏剧,P2p://198.255.74.57:12396/5f3a5399000c0a4798944462b1297a74.ts
+龙华洋片,P2p://198.255.74.57:12396/5f3a5399000ecf6f98944518d825d208.ts
+龙华影剧,P2p://198.255.74.57:12396/5f3a5399000dd98d989444d9a33d0a31.ts
+龙祥时代,P2p://198.255.74.57:12396/5f3a53c500098d279894ef9f1d6d5340.ts
+曼迪日本台,P2p://198.255.74.57:12396/5f3a53b900065d4b9894bfee86403329.ts
+美食星球,P2p://198.255.74.57:12396/5f3a53bf00025b179894d6583c0803f5.ts
+美亚电影台,P2p://198.255.74.57:12396/5f3a53c5000542a69894ee864ba25fe7.ts
+民视,http://p06.iptv2asia.com:18888/http/012?dsjtv.m3u8#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRHR3bXM_#P2p://198.255.74.57:12396/5f3a538c000264e398940f22b60604e9.ts
+民视第一台,http://p06.iptv2asia.com:18888/http/014?dsjtv.m3u8#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRG1zZHk_
+民视台湾,http://p06.iptv2asia.com:18888/http/013?dsjtv.m3u8#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRG1zdHc_#P2p://198.255.74.57:12396/5f3a538c00041abe98940f926b83ee14.ts
+民视新闻,http://p06.iptv2asia.com:18888/http/010?dsjtv.m3u8#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRG1zeHc_#P2p://198.255.74.57:12396/5f3a538c00033fdd98940f5afb530135.ts
 明珠台,http://116.199.5.52:8114/00000000/index.m3u8?&Fsv_ctype=LIVES&Fsv_otype=1&FvSeid=5abd1660af1babb4&Fsv_filetype=1&Fsv_ctype=LIVES&Fsv_cid=0&Fsv_chan_hls_se_idx=12&Fsv_rate_id=0&Fsv_SV_PARAM1=0&Fsv_ShiftEnable=0&Fsv_ShiftTsp=0&Provider_id=&Pcontent_id=&Fsv_CMSID=&Fsv_otype=1#p8p://0198.02686.cc:16871/5d1a69de0005348e11be81a666c79a56.ts
-年代新闻,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QyMzY_#p8p://0198.02686.cc:16871/5d1a69bb000e0fd711bdfb32923ec02b.ts#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRG5keHc_
-日-Discovery,vjms://58.215.133.154:8500/live/cid=496
-日FIGHTING TV,vjms://58.215.133.154:8500/live/cid=408
-日-GOLF NTWORK,vjms://58.215.133.189:8500/live/cid=409
-日-Green,vjms://58.215.133.154:8500/live/cid=412
-日-J,vjms://58.215.133.154:8500/live/cid=495
-日-MTV,vjms://58.215.133.154:8500/live/cid=52
-日-Sports,vjms://58.215.133.154:8500/live/cid=414
-日テレPLUS - NTV-PLUS,vjms://58.215.133.154:8500/live/cid=492
-日本电视剧,vjms://58.215.133.154:8500/live/cid=213
-日本钓鱼,vjms://58.215.133.154:8500/live/cid=55
-日本动画,vjms://58.215.133.154:8500/live/cid=316
-日本剧场,vjms://58.215.133.154:8500/live/cid=493
-日本频道,vjms://58.215.133.154:8500/live/cid=492
-日本星空电影1台,vjms://58.215.133.154:8500/live/cid=326
-日本星空电影2台,vjms://58.215.133.154:8500/live/cid=191
-日本星空电影3台,vjms://58.215.133.154:8500/live/cid=193
-三立iNEWS,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q4
-三立LIVE新闻,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q0
-三立都会,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzOA__
-三立台湾,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzNQ__
-三立戏剧,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q2NA__
-三立新闻,http://60.199.188.65/HLS/WG_ETTV-N/02.m3u8
-三立新聞,p8p://0198.02686.cc:16871/5d1a69ad0006fe8711bdc2b3f14f64be.ts#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRHNseHc_
+年代新闻,https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRG5keHc_#P2p://198.255.74.57:12396/5f3a5393000890d098942c0e85e92ae2.ts
+奇妙电视,P2p://198.255.74.57:12396/5f3a53d30005ce999895255aaf5782e8.ts
+三立都会台,P2p://198.255.74.57:12396/5f3a539900094032989443abacb6786e.ts
+三立台湾台,P2p://198.255.74.57:12396/5f3a539900097dd7989443bbccecb8bf.ts
+三立戏剧台,P2p://198.255.74.57:12396/5f3a539f000d09e698945c14a31b42f0.ts
+三立新闻,http://60.199.188.65/HLS/WG_ETTV-N/02.m3u8#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRHNseHc_#P2p://198.255.74.57:12396/5f3a5399000a5ef2989443f5fbcc7040.ts
+三立综合台,P2p://198.255.74.57:12396/5f3a539f000de29c98945c4b9670dc71.ts
 神州卫视,http://pull.leshantangjt.com/live/playlist.m3u8?wsSession=0bca4c2b24cc0cf567ef365e-159831790803309&wsIPSercert=8b871f8cd2d2a74063a2235ab6913736&wsMonitor=0
-台视,http://p06.iptv2asia.com:18888/http/001?dsjtv.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QyNw__#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QyNw__#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRHR3dHM_
-台视财经,http://p06.iptv2asia.com:18888/http/003?dsjtv.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzMDA_
-台视新闻,http://p06.iptv2asia.com:18888/http/004?dsjtv.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Qx#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRHRzeHc_
+台视,http://p06.iptv2asia.com:18888/http/001?dsjtv.m3u8#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRHR3dHM_#P2p://198.255.74.57:12396/5f3a538c000188a898940eea6824b6fb.ts
+台视财经,http://p06.iptv2asia.com:18888/http/003?dsjtv.m3u8
+台视新闻,http://p06.iptv2asia.com:18888/http/004?dsjtv.m3u8#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRHRzeHc_#P2p://198.255.74.57:12396/5f3a538c0000ac1298940eb1be07aa55.ts
 台视综合,http://p06.iptv2asia.com:18888/http/002?dsjtv.m3u8
-纬来电影,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q5Ng__
-纬来日本,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q0Ng__
-纬来体育,vjms://58.215.133.189:8500:3502/live/cid=202#vjms://58.215.133.189:8500:3502/live/cid=202#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q1Mg__
-纬来戏剧,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzMzk_
-纬来育乐,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzMTI_
-纬来综合,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzNDA_
-温哥华,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QxMDMy
-无线财经,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzOTM_
-无线新闻,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzOTQ_
-无线新闻台,p8p://0198.02686.cc:16871/5d1a69dc000d64b611be7bef5757286e.ts
-香港开电视,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QxNw__
-香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8#http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzOTk_
+台湾电视剧,P2p://198.255.74.57:12396/5f3a53b90004b17b9894bf8181296d53.ts
+探索(台湾),P2p://198.255.74.57:12396/5f3a53cc0009635c98950aecf932f36c.ts
+探索频道高清,P2p://198.255.74.57:12396/5f3a53cc000b103098950b5a41abc913.ts
+天映频道,P2p://198.255.74.57:12396/5f3a53c50007c5999894ef2a65866b98.ts
+纬来电影,P2p://198.255.74.57:12396/5f3a539300052d6698942b3092851411.ts
+纬来日本,P2p://198.255.74.57:12396/5f3a539300028e9898942a85ce95ab7a.ts
+纬来体育,P2p://198.255.74.57:12396/5f3a539300043cc298942af3553a941b.ts
+纬来戏剧,P2p://198.255.74.57:12396/5f3a53930003679998942abc6cb00eca.ts
+纬来育乐,P2p://198.255.74.57:12396/5f3a53930006e01598942ba030b5a580.ts
+纬来综合,P2p://198.255.74.57:12396/5f3a539300060b1698942b692ffa62a8.ts
+卫视电影台,P2p://198.255.74.57:12396/5f3a53c5000cea2e9894f07c92aa3778.ts
+卫视西片,P2p://198.255.74.57:12396/5f3a53c5000a64589894efd6b8829150.ts
+卫视中文台,P2p://198.255.74.57:12396/5f3a53c5000b3a8c9894f00dbd7f2c04.ts
+无线财经,P2p://198.255.74.57:12396/5f3a53860005d9e19893f8955a26db3d.ts
+无线财经资讯台,http://livetv.dnsfor.me:80/channel.11.m3u8
+无线新闻台,P2p://198.255.74.57:12396/5f3a53d300072ac7989525b3107176f1.ts#http://livetv.dnsfor.me:80/channel.10.m3u8
+香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8#http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 星空体育,https://www.fanmingming.cn/hls/starsports.m3u8
-星空卫视,https://www.fanmingming.cn/hls/startv.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q0MDE_
-亚美卫视,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QxMDAx
+星空卫视,https://www.fanmingming.cn/hls/startv.m3u8#P2p://198.255.74.57:12396/5f3a53860004e7d69893f857f70ba30c.ts
+星卫电影台,P2p://198.255.74.57:12396/5f3a53c500046ea89894ee5096cd2c2f.ts
+星卫娱乐台,P2p://198.255.74.57:12396/5f3a53c5000398419894ee197bec6542.ts
+亚洲旅游台,P2p://198.255.74.57:12396/5f3a53bf000330239894d68e2dd80dc2.ts
+亚洲美食,P2p://198.255.74.57:12396/5f3a5379000912629893c6a087efba2b.ts
 阳光卫视,http://121.31.30.90:8085/ysten-business/live/yangguangstv/1.m3u8
-壹新闻,https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRHR3eXh3#p8p://0198.02686.cc:16871/5d1a69b6000b8d0a11bde706a99c146a.ts#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzMDM_
-壹综合,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzMDU_
-有线18,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q0NA__
+壹电视新闻,P2p://198.255.74.57:12396/5f3a539a00013bc498944586875c263f.ts
+壹电视综合,P2p://198.255.74.57:12396/5f3a539a0002140d989445bd967f8566.ts
+壹电影台,P2p://198.255.74.57:12396/5f3a53a50005e622989471b0bc2f1792.ts
+壹新闻,https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRHR3eXh3
 有线财经,http://125.89.166.215/live-hwcdn.utvlive.top/live/add598ff3f90428da3fbebb644ba135b/2bbaa83758ba412bbdd8d08626c56eb4-3.m3u8
-有线电影,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzNTQ_
-有线新闻,http://125.89.166.215/live-hwcdn.utvlive.top/live/97609933ef744f008e19a6e0d5ef9f2b/edd34677cc9548539d36b10c1c594b94-3.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzOTU_
-有线新闻台,http://125.89.166.215/live-hwcdn.utvlive.top/live/97609933ef744f008e19a6e0d5ef9f2b/edd34677cc9548539d36b10c1c594b94-3.m3u8#p8p://0198.02686.cc:16871/5e021549000d8ec4e44477e9f2ec6aad.ts
-有线娱乐,http://125.89.166.215/live-hwcdn.utvlive.top/live/d4e03afe056a4f2da070d5f789f3ac9e/a5ed7598a90246199df373924de367d4-3.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzNjA_
+有线财经资讯台 HD,http://livetv.dnsfor.me:80/channel.6.m3u8
+有线新闻,http://125.89.166.215/live-hwcdn.utvlive.top/live/97609933ef744f008e19a6e0d5ef9f2b/edd34677cc9548539d36b10c1c594b94-3.m3u8
+有线新闻台,http://125.89.166.215/live-hwcdn.utvlive.top/live/97609933ef744f008e19a6e0d5ef9f2b/edd34677cc9548539d36b10c1c594b94-3.m3u8
+有线新闻台 HD,http://livetv.dnsfor.me:80/channel.5.m3u8
+有线娱乐,http://125.89.166.215/live-hwcdn.utvlive.top/live/d4e03afe056a4f2da070d5f789f3ac9e/a5ed7598a90246199df373924de367d4-3.m3u8
 有线娱乐台,http://125.89.166.215/live-hwcdn.utvlive.top/live/d4e03afe056a4f2da070d5f789f3ac9e/a5ed7598a90246199df373924de367d4-3.m3u8#http://live-hwcdn.utvlive.top/live/d4e03afe056a4f2da070d5f789f3ac9e/a5ed7598a90246199df373924de367d4.m3u8
-中华财经,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzMTc_
+有线综合娱乐台 HD,http://livetv.dnsfor.me:80/channel.7.m3u8
 中华卫视台湾台,http://pull.leshantangjt.com/live/playlist.m3u8
-中视,http://p06.iptv2asia.com:18888/http/005?dsjtv.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QyOA__#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRHR3enM_
-中视菁采,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q3NA__
-中视新闻,http://p06.iptv2asia.com:18888/http/006?dsjtv.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Q3#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRHpzeHc_
-中天新闻,http://104.250.154.42:8080/ZZ_zhongtiannews/ZZ_zhongtiannews.m3u8#http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0Qz#p8p://0198.02686.cc:16871/5f2f9178000c4ec022496d33f280ef95#p8p://0198.02686.cc:16871/5d1a69b000057f8711bdce095e527c76.ts#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRHp0eHc_
-中天亚洲,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzMjI_
-中天娱乐,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzMjQ_
-中天综合,http://106.12.69.60/test/凤凰代理.php?url=sop://api/fhtv.php?fhtv!play!line=hk1!vkeys=dmlkJTNEdWJsaXZlJTIzaWQlM0QzMjU_
-综合娱乐,p8p://0198.02686.cc:16871/5f2cc18d0002ad29174d3cc37573600e
+中视,http://p06.iptv2asia.com:18888/http/005?dsjtv.m3u8#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRHR3enM_#P2p://198.255.74.57:12396/5f3a538c00069a8498941036096c19f6.ts
+中视经典,P2p://198.255.74.57:12396/5f3a538c000770439894106dc44b639c.ts
+中视新闻,http://p06.iptv2asia.com:18888/http/006?dsjtv.m3u8#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRHpzeHc_#P2p://198.255.74.57:12396/5f3a538c0005c40798940fffb55df10c.ts
+中天新闻,http://104.250.154.42:8080/ZZ_zhongtiannews/ZZ_zhongtiannews.m3u8#https://live.llv99.cn/live.php?qq5009581&play&vkeys=dmlkJTNEZm1pdHYlMjNpZCUzRHp0eHc_#P2p://198.255.74.57:12396/5f3a539f000c2ef498945bdc5f34674d.ts
+中天亚洲台,P2p://198.255.74.57:12396/5f3a539f000a7eba98945b6d68489a6e.ts
+中天娱乐,P2p://198.255.74.57:12396/5f3a539f0009a16e98945b34ead7bbc5.ts
+中天综合,P2p://198.255.74.57:12396/5f3a539f000b58b898945ba5a7b3987f.ts
+
 
 地方,#genre#
 重庆影视,http://219.153.252.50/PLTV/88888888/224/3221225638/chunklist.m3u8#http://219.153.252.50/PLTV/88888888/224/3221225633/chunklist.m3u8
