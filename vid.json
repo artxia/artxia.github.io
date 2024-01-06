@@ -1,0 +1,9 @@
+{
+	"alist_server": "http://192.168.1.8:5344",
+	"alist_token": "",
+	"alist_tvbox_server": "http://192.168.1.8:14567",
+	"alist_tvbox_username": "admin",
+	"alist_tvbox_password": "admin",
+	"my_share_path": "/🈴我的阿里分享",
+	"params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }
+}
