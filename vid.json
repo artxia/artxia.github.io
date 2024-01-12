@@ -5,5 +5,5 @@
 	"alist_tvbox_username": "admin",
 	"alist_tvbox_password": "admin",
 	"my_share_path": "/🈴我的阿里分享",
-	"params": { "/abc": { "password": "123" }, "/abc/abc": { "password": "123" } }
+	"params": ""
 }
